@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on 技術的理想主義者の日記</title>
-    <link>http://xdcyw.tk/post/</link>
-    <description>Recent content in Posts on 技術的理想主義者の日記</description>
+    <title>Posts on </title>
+    <link>https://xdcyw.tk/post/</link>
+    <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <lastBuildDate>Sat, 25 Sep 2021 17:56:09 +0000</lastBuildDate><atom:link href="http://xdcyw.tk/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 03:51:02 +0900</lastBuildDate><atom:link href="https://xdcyw.tk/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://xdcyw.tk/post/test/</link>
+      <pubDate>Sun, 26 Sep 2021 03:51:02 +0900</pubDate>
+      
+      <guid>https://xdcyw.tk/post/test/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>スマホから投稿テスト</title>
-      <link>http://xdcyw.tk/post/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%8B%E3%82%89%E6%8A%95%E7%A8%BF%E3%83%86%E3%82%B9%E3%83%88/</link>
+      <link>https://xdcyw.tk/post/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%8B%E3%82%89%E6%8A%95%E7%A8%BF%E3%83%86%E3%82%B9%E3%83%88/</link>
       <pubDate>Sat, 25 Sep 2021 17:56:09 +0000</pubDate>
       
-      <guid>http://xdcyw.tk/post/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%8B%E3%82%89%E6%8A%95%E7%A8%BF%E3%83%86%E3%82%B9%E3%83%88/</guid>
+      <guid>https://xdcyw.tk/post/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%8B%E3%82%89%E6%8A%95%E7%A8%BF%E3%83%86%E3%82%B9%E3%83%88/</guid>
       <description>スマホから投稿しています。 方法については要望があれば書くかもしれません。</description>
     </item>
     
     <item>
       <title>脱希少性経済について</title>
-      <link>http://xdcyw.tk/post/%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+      <link>https://xdcyw.tk/post/%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Sat, 25 Sep 2021 23:52:11 +0900</pubDate>
       
-      <guid>http://xdcyw.tk/post/%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+      <guid>https://xdcyw.tk/post/%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
       <description>こんにちは、今から脱希少性経済について語っていこうと思う
 さて、まずは脱希少性経済が何たるかを見ていく。
 Wikipediaには「脱希少性とは、最小の人的労力 の要求をもって膨大な潤沢のうちに多くの財が生産しうるものであるなかでの、理論的な経済的状況である。」と書かれている。
@@ -51,10 +59,10 @@ Wikipediaには「脱希少性とは、最小の人的労力 の要求をもっ�
     
     <item>
       <title>サイトを作成しました</title>
-      <link>http://xdcyw.tk/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</link>
+      <link>https://xdcyw.tk/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</link>
       <pubDate>Sat, 25 Sep 2021 21:22:20 +0900</pubDate>
       
-      <guid>http://xdcyw.tk/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</guid>
+      <guid>https://xdcyw.tk/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</guid>
       <description>サイトを作成しました。ぼちぼち更新していこうと思うのでよろしくお願いします。</description>
     </item>
     

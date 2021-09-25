@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/xdcyw
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://xdcyw.tk
+  * I am xdcyw (https://keybase.io/xdcyw) on keybase.
+  * I have a public key ASCdY209u34zq2ct-63Rw_2pIXNvEyh5qjm7M_wsC8rOwwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209d636d3dbb7e33ab672dfbadd1c3fda921736f132879aa39bb33fc2c0bcacec30a",
+      "host": "keybase.io",
+      "kid": "01209d636d3dbb7e33ab672dfbadd1c3fda921736f132879aa39bb33fc2c0bcacec30a",
+      "uid": "94ce7504df4c99c941f0468bf1676119",
+      "username": "xdcyw"
+    },
+    "merkle_root": {
+      "ctime": 1632587902,
+      "hash": "17d5057dbc8f6e4f73baea9683f5a05d7449cfc2d8bb0dd3f87c01dd592b9cbaa9f6929f28bf545f9fc8bac1426ec2dc8031289329f67ff581bbdb3f5e60f6bd",
+      "hash_meta": "135b21822839afaab1dcf980f1b6904bf96bf6aa9b4df671496357b90d4baae6",
+      "seqno": 20839900
+    },
+    "service": {
+      "entropy": "kEeJ7KSGL912Og6f3hk53utR",
+      "hostname": "xdcyw.tk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.7.1"
+  },
+  "ctime": 1632587914,
+  "expire_in": 504576000,
+  "prev": "cebe238503bc60574458b5293cbde59eae48654a576a72e5d55ccd27d00593a7",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnWNtPbt+M6tnLfut0cP9qSFzbxMoeao5uzP8LAvKzsMKp3BheWxvYWTESpcCC8Qgzr4jhQO8YFdEWLUpPL3lnq5IZUpXanLl1VzNJ9AFk6fEINUBnklgg556Wz6TMitMk10WgZ+JSJoBhx9on0qY05v7AgHCo3NpZ8RAtBv6v0F2LfdHHpsI6Tr13v5xti/STXG9CLQNZkgvdcLvvVdwihzulwEKslYB6aPdZSvY5Ywg/4dg42/J9TI6AqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILpnkHTrhTYLty7Sndg0CZHeRKtUjn23saKf0ur2ZKtUo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/xdcyw
+
+==================================================================

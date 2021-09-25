@@ -1,20 +1,69 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on 日本語</title>
-    <link>http://xdcyw.tk/post/</link>
-    <description>Recent content in Posts on 日本語</description>
+    <title>Posts on </title>
+    <link>https://xdcyw.tk/post/</link>
+    <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <lastBuildDate>Sat, 25 Sep 2021 21:22:20 +0900</lastBuildDate><atom:link href="http://xdcyw.tk/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 03:51:02 +0900</lastBuildDate><atom:link href="https://xdcyw.tk/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>テスト投稿</title>
-      <link>http://xdcyw.tk/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</link>
+      <title>Test</title>
+      <link>https://xdcyw.tk/post/test/</link>
+      <pubDate>Sun, 26 Sep 2021 03:51:02 +0900</pubDate>
+      
+      <guid>https://xdcyw.tk/post/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>スマホから投稿テスト</title>
+      <link>https://xdcyw.tk/post/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%8B%E3%82%89%E6%8A%95%E7%A8%BF%E3%83%86%E3%82%B9%E3%83%88/</link>
+      <pubDate>Sat, 25 Sep 2021 17:56:09 +0000</pubDate>
+      
+      <guid>https://xdcyw.tk/post/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%8B%E3%82%89%E6%8A%95%E7%A8%BF%E3%83%86%E3%82%B9%E3%83%88/</guid>
+      <description>スマホから投稿しています。 方法については要望があれば書くかもしれません。</description>
+    </item>
+    
+    <item>
+      <title>脱希少性経済について</title>
+      <link>https://xdcyw.tk/post/%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+      <pubDate>Sat, 25 Sep 2021 23:52:11 +0900</pubDate>
+      
+      <guid>https://xdcyw.tk/post/%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+      <description>こんにちは、今から脱希少性経済について語っていこうと思う
+さて、まずは脱希少性経済が何たるかを見ていく。
+Wikipediaには「脱希少性とは、最小の人的労力 の要求をもって膨大な潤沢のうちに多くの財が生産しうるものであるなかでの、理論的な経済的状況である。」と書かれている。
+私は、最小限の労力で莫大な財を生産できる社会の中での理論的な経済的状況であると言うことだと認識している。
+では、最小限の労力で莫大な財を生産できると何が嬉しいのだろうか。
+それが希少性の喪失だと思っている。
+まずは、希少性について説明していこうと思う。
+希少性というのは、需要に対して供給が少ない状態であるとされている。
+アダム・スミスの価値のパラドックスでは、「財が価格を有するということは、その財が希少性を有することを意味しているとある。」
+例えば、水とダイヤモンドがあるとする。このとき水とダイヤモンドのどちらが価値があるかと聞かれると殆どの人がダイヤモンドと答えると思う。
+しかし使用価値ではダイヤモンドよりも水のほうが遥かに上回る。
+このことからも「財が価格を有するということは、その財が希少性を有することを意味しているとある」と言えるだろう。
+では、財の希少性が失わせたらどうなるのだろうか？
+財の希少性が失われると、その財は自由財となる。
+自由財は需要が供給を上回っている財を指していて、例えば空気やそのへんの石などが値する。
+希少性がないということは財の価値が無ということなので、自由財の価値は無料ということになる。
+そして、脱希少性経済は最小限の労力で莫大な富を生産できる技術を用いて生活必需品など身の回りのものを自由財になった経済状態だと認識している。
+そのため、脱希少性経済の社会では殆どの物が安価またはただで入手できるようになる。
+ではこのような経済体制を実現されることは可能かということを考えていこうと思う。
+結論から言うと、可能だと思っている。
+私は脱希少性経済を迎えるために必要なのは、高度な自動化だと思っている。
+生活必需品の生産すべてがオートメーション化されれば、人類の労働はもはや不要となる。
+これにより「最小の人的労力 の要求をもって膨大な潤沢のうちに多くの財が生産しうるものであるなかでの、理論的な経済的状況である。」という条件を満たし脱希少性経済を実現刺さることが可能となる。
+また、貨幣は労働の対価であると考えると、もはや貨幣すら存在していないかもしれない
+続きはいつか書く。</description>
+    </item>
+    
+    <item>
+      <title>サイトを作成しました</title>
+      <link>https://xdcyw.tk/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</link>
       <pubDate>Sat, 25 Sep 2021 21:22:20 +0900</pubDate>
       
-      <guid>http://xdcyw.tk/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</guid>
-      <description>ただのテスト投稿です
-テスト&amp;nbsp;¶ テスト&amp;nbsp;¶ テスト&amp;nbsp;¶ テスト&amp;nbsp;¶ テスト&amp;nbsp;¶ テスト&amp;nbsp;¶ </description>
+      <guid>https://xdcyw.tk/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</guid>
+      <description>サイトを作成しました。ぼちぼち更新していこうと思うのでよろしくお願いします。</description>
     </item>
     
   </channel>

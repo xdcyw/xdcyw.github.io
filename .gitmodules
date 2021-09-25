@@ -3,3 +3,6 @@
 	url = https://github.com/aanupam23/hugo-sugoi.git
 [submodule "submod-repo"]
 	ignore = dirty
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
