@@ -2,7 +2,7 @@ baseURL = 'http://xdcyw.tk/'
 languageCode = 'ja'
 title = "日本語"
 theme = 'sam'
-
+publishDir = "docs"
 [[params.mainMenu]]
     link = "/post"
     text = "blog"

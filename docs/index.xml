@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日本語</title>
+    <link>http://xdcyw.tk/</link>
+    <description>Recent content on 日本語</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 25 Sep 2021 21:22:20 +0900</lastBuildDate><atom:link href="http://xdcyw.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>テスト投稿</title>
+      <link>http://xdcyw.tk/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</link>
+      <pubDate>Sat, 25 Sep 2021 21:22:20 +0900</pubDate>
+      
+      <guid>http://xdcyw.tk/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</guid>
+      <description>ただのテスト投稿です
+テスト&amp;nbsp;¶ テスト&amp;nbsp;¶ テスト&amp;nbsp;¶ テスト&amp;nbsp;¶ テスト&amp;nbsp;¶ テスト&amp;nbsp;¶ </description>
+    </item>
+    
+    <item>
+      <title>自己紹介的な</title>
+      <link>http://xdcyw.tk/profile/profile/</link>
+      <pubDate>Sat, 25 Sep 2021 21:06:05 +0900</pubDate>
+      
+      <guid>http://xdcyw.tk/profile/profile/</guid>
+      <description>こんにちは、Xdcywです。
+高校生です。多分17歳です。
+オープンソースソフトウェアやLinux、セキュリティなどに興味があります。
+来年度受験ということもあり、インターネットでの活動を減らそうと努力しているため
+低浮上になるかもしれませんがよろしくお願いします。
+問い合わせ&amp;nbsp;¶ TwitterのDM、またはXMPPアドレス[xdcyw@conversations.im] または、下記Session idにて受け付けています。
+0546180bb5c2ffac52e1e148fec0b9f35e9a98356c5a5ccd6edfc5f2fe52d83a60  関連リンク&amp;nbsp;¶ Twitter Github keybase</description>
+    </item>
+    
+  </channel>
+</rss>
