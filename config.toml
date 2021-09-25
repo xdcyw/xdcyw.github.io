@@ -1,7 +1,8 @@
 baseURL = 'http://xdcyw.tk/'
 languageCode = 'ja'
-title = "日本語"
+title = "技術的理想主義者の日記"
 theme = 'sam'
+favicon = true
 publishDir = "docs"
 [[params.mainMenu]]
     link = "/post"
