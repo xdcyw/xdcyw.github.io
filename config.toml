@@ -1,4 +1,16 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "hugo-PaperMod"
+baseURL = 'http://xdcyw.tk/'
+languageCode = 'ja'
+title = "日本語"
+theme = 'sam'
+
+[[params.mainMenu]]
+    link = "/post"
+    text = "blog"
+
+[[params.mainMenu]]
+    link = "/profile/profile/"
+    text = "profile"
+
+
+
+
