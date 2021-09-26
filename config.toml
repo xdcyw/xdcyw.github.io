@@ -54,7 +54,7 @@ url = "/profile/profile"
 
 
 [[params.nav.custom]]
-title = "post"
+title = "Post"
 url = "/post"
 
 
