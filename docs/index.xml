@@ -2,17 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技術的理想主義者の日記</title>
-    <link>http://xdcyw.tk/</link>
+    <link>http://xdcyw.net/</link>
     <description>Recent content on 技術的理想主義者の日記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Sep 2021 23:52:11 +0900</lastBuildDate><atom:link href="http://xdcyw.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 17:39:59 +0900</lastBuildDate><atom:link href="http://xdcyw.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ドメインを変更しました</title>
+      <link>http://xdcyw.net/post/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Sun, 26 Sep 2021 17:39:59 +0900</pubDate>
+      
+      <guid>http://xdcyw.net/post/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>前：xdcyw.tk 後：xdcyw.net 旧URLからは自動でリダイレクトされると思います。</description>
+    </item>
+    
     <item>
       <title>脱希少性経済について</title>
-      <link>http://xdcyw.tk/post/%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+      <link>http://xdcyw.net/post/%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Sat, 25 Sep 2021 23:52:11 +0900</pubDate>
       
-      <guid>http://xdcyw.tk/post/%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+      <guid>http://xdcyw.net/post/%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
       <description>こんにちは、今から脱希少性経済について語っていこうと思う
 さて、まずは脱希少性経済が何たるかを見ていく。
 Wikipediaには「脱希少性とは、最小の人的労力 の要求をもって膨大な潤沢のうちに多くの財が生産しうるものであるなかでの、理論的な経済的状況である。」と書かれている。
@@ -44,20 +53,20 @@ Wikipediaには「脱希少性とは、最小の人的労力 の要求をもっ�
     
     <item>
       <title>テスト投稿</title>
-      <link>http://xdcyw.tk/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</link>
+      <link>http://xdcyw.net/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</link>
       <pubDate>Sat, 25 Sep 2021 21:22:20 +0900</pubDate>
       
-      <guid>http://xdcyw.tk/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</guid>
+      <guid>http://xdcyw.net/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</guid>
       <description>ただのテスト投稿です
 テスト テスト テスト テスト テスト テスト </description>
     </item>
     
     <item>
       <title>自己紹介的な</title>
-      <link>http://xdcyw.tk/profile/profile/</link>
+      <link>http://xdcyw.net/profile/profile/</link>
       <pubDate>Sat, 25 Sep 2021 21:06:05 +0900</pubDate>
       
-      <guid>http://xdcyw.tk/profile/profile/</guid>
+      <guid>http://xdcyw.net/profile/profile/</guid>
       <description>こんにちは、Xdcywです。
 高校生です。多分17歳です。
 オープンソースソフトウェアやLinux、セキュリティなどに興味があります。
