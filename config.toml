@@ -1,16 +1,66 @@
 baseURL = 'http://xdcyw.net/'
 languageCode = 'ja'
 title = "技術的理想主義者の日記"
-theme = 'sam'
+theme = 'hugo-notepadium'
 favicon = true
 publishDir = "docs"
-[[params.mainMenu]]
-    link = "/post"
-    text = "blog"
+copyright = "@2021- XdCyw"
+hasCJKLanguage = true
 
-[[params.mainMenu]]
-    link = "/profile/profile/"
-    text = "profile"
+enableRobotsTXT = true
+
+
+
+
+
+[markup.highlight]
+codeFences = true
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
+
+[params]
+style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
+logo = ""  # if you have a logo png
+slogan = "100% JavaScript-free"
+license = ""  # CC License
+fullRss = false # Puts entire HTML post into rss 'description' tag. If unset, default is false.
+
+[params.comments]
+enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
+
+[params.math]
+enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
+use = "katex"  # option: "katex", "mathjax". default: "katex"
+
+[params.syntax]
+use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
+theme = "xcode"
+darkTheme = "xcode-dark"  # apply this theme in dark mode
+
+
+
+# custom navigation items
+
+[[params.nav.custom]]
+title = "Home"
+url = "/"
+
+[[params.nav.custom]]
+title = "Profile"
+url = "/profile/profile"
+
+
+[[params.nav.custom]]
+title = "post"
+url = "/post"
+
+
+[[params.nav.custom]]
+title = "Twitter"
+url = "https://twitter.com/xdcyw/"
 
 
 

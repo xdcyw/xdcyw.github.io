@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 技術的理想主義者の日記</title>
@@ -6,14 +5,21 @@
     <description>Recent content in Posts on 技術的理想主義者の日記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 26 Sep 2021 17:39:59 +0900</lastBuildDate><atom:link href="http://xdcyw.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>@2021- XdCyw</copyright>
+    <lastBuildDate>Sun, 26 Sep 2021 17:39:59 +0900</lastBuildDate>
+    
+        <atom:link href="http://xdcyw.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>ドメインを変更しました</title>
       <link>http://xdcyw.net/post/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Sun, 26 Sep 2021 17:39:59 +0900</pubDate>
       
       <guid>http://xdcyw.net/post/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
-      <description>前：xdcyw.tk 後：xdcyw.net 旧URLからは自動でリダイレクトされると思います。</description>
+      <description>&lt;p&gt;前：xdcyw.tk 後：xdcyw.net
+旧URLからは自動でリダイレクトされると思います。&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -22,33 +28,35 @@
       <pubDate>Sat, 25 Sep 2021 23:52:11 +0900</pubDate>
       
       <guid>http://xdcyw.net/post/%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
-      <description>こんにちは、今から脱希少性経済について語っていこうと思う
-さて、まずは脱希少性経済が何たるかを見ていく。
-Wikipediaには「脱希少性とは、最小の人的労力 の要求をもって膨大な潤沢のうちに多くの財が生産しうるものであるなかでの、理論的な経済的状況である。」と書かれている。
-私は、最小限の労力で莫大な財を生産できる社会の中での理論的な経済的状況であると言うことだと認識している。
-では、最小限の労力で莫大な財を生産できると何が嬉しいのだろうか。
-それが希少性の喪失だと思っている。
-まずは、希少性について説明していこうと思う。
-希少性というのは、需要に対して供給が少ない状態であるとされている。
-アダム・スミスの価値のパラドックスでは、「財が価格を有するということは、その財が希少性を有することを意味しているとある。」
-例えば、水とダイヤモンドがあるとする。このとき水とダイヤモンドのどちらが価値があるかと聞かれると殆どの人がダイヤモンドと答えると思う。
-しかし使用価値ではダイヤモンドよりも水のほうが遥かに上回る。
-このことからも「財が価格を有するということは、その財が希少性を有することを意味しているとある」と言えるだろう。
-では、財の希少性が失わせたらどうなるのだろうか？
-財の希少性が失われると、その財は自由財となる。
-自由財は需要が供給を上回っている財を指していて、例えば空気やそのへんの石などが値する。
-希少性がないということは財の価値が無ということなので、自由財の価値は無料ということになる。
-そして、脱希少性経済は最小限の労力で莫大な富を生産できる技術を用いて生活必需品など身の回りのものを自由財になった経済状態だと認識している。
-そのため、脱希少性経済の社会では殆どの物が安価またはただで入手できるようになる。
-ではこのような経済体制を実現されることは可能かということを考えていこうと思う。
-結論から言うと、私は可能だと思っている。
-ここ数世紀で人類の科学は急速に進歩している。
-2045年頃にはシンギュラリティを迎えると言われているし、IT分野もここ十数年でかなり進化している。
-私は脱希少性経済を迎えるために必要なのは、高度な自動化だと思っている。
-生活必需品の生産すべてがオートメーション化されれば、人類の労働はもはや不要となる。
-これにより「最小の人的労力 の要求をもって膨大な潤沢のうちに多くの財が生産しうるものであるなかでの、理論的な経済的状況である。」という条件を満たし脱希少性経済を実現刺さることが可能となる。
-また、貨幣は労働の対価であると考えると、もはや貨幣すら存在していないかもしれない
-続きはいつか書く。</description>
+      <description>&lt;p&gt;こんにちは、今から脱希少性経済について語っていこうと思う&lt;/p&gt;
+&lt;p&gt;さて、まずは脱希少性経済が何たるかを見ていく。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Wikipedia&lt;/a&gt;
+には「&lt;strong&gt;脱希少性&lt;/strong&gt;とは、最小の人的労力 の要求をもって膨大な潤沢のうちに多くの財が生産しうるものであるなかでの、理論的な経済的状況である。」と書かれている。&lt;/p&gt;
+&lt;p&gt;私は、最小限の労力で莫大な財を生産できる社会の中での理論的な経済的状況であると言うことだと認識している。&lt;/p&gt;
+&lt;p&gt;では、最小限の労力で莫大な財を生産できると何が嬉しいのだろうか。&lt;/p&gt;
+&lt;p&gt;それが希少性の喪失だと思っている。&lt;/p&gt;
+&lt;p&gt;まずは、希少性について説明していこうと思う。&lt;/p&gt;
+&lt;p&gt;希少性というのは、需要に対して供給が少ない状態であるとされている。&lt;/p&gt;
+&lt;p&gt;アダム・スミスの価値のパラドックスでは、「財が価格を有するということは、その財が希少性を有することを意味しているとある。」&lt;/p&gt;
+&lt;p&gt;例えば、水とダイヤモンドがあるとする。このとき水とダイヤモンドのどちらが価値があるかと聞かれると殆どの人がダイヤモンドと答えると思う。&lt;/p&gt;
+&lt;p&gt;しかし使用価値ではダイヤモンドよりも水のほうが遥かに上回る。&lt;/p&gt;
+&lt;p&gt;このことからも「財が価格を有するということは、その財が希少性を有することを意味しているとある」と言えるだろう。&lt;/p&gt;
+&lt;p&gt;では、財の希少性が失わせたらどうなるのだろうか？&lt;/p&gt;
+&lt;p&gt;財の希少性が失われると、その財は自由財となる。&lt;/p&gt;
+&lt;p&gt;自由財は需要が供給を上回っている財を指していて、例えば空気やそのへんの石などが値する。&lt;/p&gt;
+&lt;p&gt;希少性がないということは財の価値が無ということなので、自由財の価値は無料ということになる。&lt;/p&gt;
+&lt;p&gt;そして、脱希少性経済は最小限の労力で莫大な富を生産できる技術を用いて生活必需品など身の回りのものを自由財になった経済状態だと認識している。&lt;/p&gt;
+&lt;p&gt;そのため、脱希少性経済の社会では殆どの物が安価またはただで入手できるようになる。&lt;/p&gt;
+&lt;p&gt;ではこのような経済体制を実現されることは可能かということを考えていこうと思う。&lt;/p&gt;
+&lt;p&gt;結論から言うと、私は可能だと思っている。&lt;/p&gt;
+&lt;p&gt;ここ数世紀で人類の科学は急速に進歩している。&lt;/p&gt;
+&lt;p&gt;2045年頃にはシンギュラリティを迎えると言われているし、IT分野もここ十数年でかなり進化している。&lt;/p&gt;
+&lt;p&gt;私は脱希少性経済を迎えるために必要なのは、高度な自動化だと思っている。&lt;/p&gt;
+&lt;p&gt;生活必需品の生産すべてがオートメーション化されれば、人類の労働はもはや不要となる。&lt;/p&gt;
+&lt;p&gt;これにより「最小の人的労力 の要求をもって膨大な潤沢のうちに多くの財が生産しうるものであるなかでの、理論的な経済的状況である。」という条件を満たし脱希少性経済を実現刺さることが可能となる。&lt;/p&gt;
+&lt;p&gt;また、貨幣は労働の対価であると考えると、もはや貨幣すら存在していないかもしれない&lt;/p&gt;
+&lt;p&gt;続きはいつか書く。&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -57,8 +65,40 @@ Wikipediaには「脱希少性とは、最小の人的労力 の要求をもっ�
       <pubDate>Sat, 25 Sep 2021 21:22:20 +0900</pubDate>
       
       <guid>http://xdcyw.net/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</guid>
-      <description>ただのテスト投稿です
-テスト テスト テスト テスト テスト テスト </description>
+      <description>&lt;p&gt;ただのテスト投稿です&lt;/p&gt;
+&lt;h1 id=&#34;テスト&#34;&gt;テスト&lt;/h1&gt;
+&lt;h2 id=&#34;テスト-1&#34;&gt;テスト&lt;/h2&gt;
+&lt;h3 id=&#34;テスト-2&#34;&gt;テスト&lt;/h3&gt;
+&lt;h4 id=&#34;テスト-3&#34;&gt;テスト&lt;/h4&gt;
+&lt;h5 id=&#34;テスト-4&#34;&gt;テスト&lt;/h5&gt;
+&lt;h6 id=&#34;テスト-5&#34;&gt;テスト&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>自己紹介的な</title>
+      <link>http://xdcyw.net/profile/profile/</link>
+      <pubDate>Sat, 25 Sep 2021 21:06:05 +0900</pubDate>
+      
+      <guid>http://xdcyw.net/profile/profile/</guid>
+      <description>&lt;p&gt;こんにちは、Xdcywです。&lt;/p&gt;
+&lt;p&gt;高校生です。多分17歳です。&lt;/p&gt;
+&lt;p&gt;オープンソースソフトウェアやLinux、セキュリティなどに興味があります。&lt;/p&gt;
+&lt;p&gt;来年度受験ということもあり、インターネットでの活動を減らそうと努力しているため&lt;/p&gt;
+&lt;p&gt;低浮上になるかもしれませんがよろしくお願いします。&lt;/p&gt;
+&lt;h2 id=&#34;問い合わせ&#34;&gt;問い合わせ&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/xdcyw&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Twitter&lt;/a&gt;
+のDM、またはXMPPアドレス[xdcyw@conversations.im]
+または、下記Session idにて受け付けています。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-SessionID&#34; data-lang=&#34;SessionID&#34;&gt;0546180bb5c2ffac52e1e148fec0b9f35e9a98356c5a5ccd6edfc5f2fe52d83a60
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;関連リンク&#34;&gt;関連リンク&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/xdcyw&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Twitter&lt;/a&gt;
+
+&lt;a href=&#34;https://github.com/xdcyw&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Github&lt;/a&gt;
+
+&lt;a href=&#34;https://keybase.io/xdcyw&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;keybase&lt;/a&gt;
+&lt;/p&gt;
+</description>
     </item>
     
   </channel>

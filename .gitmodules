@@ -3,3 +3,9 @@
 	url = https://github.com/aanupam23/hugo-sugoi.git
 [submodule "submod-repo"]
 	ignore = dirty
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/hugo-notepadium"]
+	path = themes/hugo-notepadium
+	url = https://github.com/cntrump/hugo-notepadium.git
