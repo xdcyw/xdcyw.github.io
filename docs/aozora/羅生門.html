@@ -1,97 +1,71 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" >
+<!DOCTYPE html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS" />
-	<meta http-equiv="content-style-type" content="text/css" />
-	<link rel="stylesheet" type="text/css" href="../../aozora.css" />
-	<title>�H�열�V�� ������</title>
-	<script type="text/javascript" src="../../jquery-1.4.2.min.js"></script>
-  <link rel="Schema.DC" href="http://purl.org/dc/elements/1.1/" />
-	<meta name="DC.Title" content="������" />
-	<meta name="DC.Creator" content="�H�열�V��" />
-	<meta name="DC.Publisher" content="�󕶌�" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width">
+<title>青空UTF</title>
+<meta property="og:title" content="青空UTF"/>
+<meta property="og:type" content="article">
+<meta property="og:description" content="青空文庫のxhtmlファイルのSJIS文字コードをUTF-8に変換します。"/>
+<meta property="og:url" content="http://wakufactory.jp/densho/font/aozorautf.php"/>
+
+<style type="text/css">
+body {
+	font-family:"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN", "ＭＳ 明朝",serif ;
+	font-size:1.0em;
+	line-height:200% ;
+}
+body.tate {
+	font-family:"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN", "ＭＳ 明朝",serif ;
+	writing-mode: vertical-rl;
+	-webkit-writing-mode: vertical-rl;
+}
+span.notes {
+	font-weight:bold ;
+	color:blue ;
+}
+span.gaiji {
+
+}
+img.illustration {
+	border:1px solid red ;
+}
+em.sesame_dot,strong.SESAME_DOT {
+	font-style:normal;
+	text-emphasis-style: filled sesame ;
+	-webkit-text-emphasis-style: filled sesame ;
+	color:green ;
+}
+em.white_circle {
+	font-style:normal;
+	text-emphasis-style:open circle;
+	-webkit-text-emphasis-style:open circle;
+	color:green ;
+}
+em.underline_solid {
+	font-style:normal;
+	text-decoration: underline;
+}
+.tcy {
+  -webkit-text-combine:     horizontal;
+  -epub-text-combine:       horizontal;
+}
+.upright-1 {
+  -webkit-text-combine:     horizontal;
+  -epub-text-combine:       horizontal;
+}
+.upright {
+  -webkit-text-orientation: upright;
+  -epub-text-orientation:   upright;
+  color:green ;
+}
+.sideways {
+  -webkit-text-orientation: sideways;
+  -epub-text-orientation:   rotate-right;
+  -epub-text-orientation:   sideways;
+}
+</style>
 </head>
-<body>
-<div class="metadata">
-<h1 class="title">������</h1>
-<h2 class="author">�H�열�V��</h2>
-<br />
-<br />
-</div>
-<div id="contents" style="display:none"></div><div class="main_text"><br />
-�@������̕���̎��ł���B��l��<ruby><rb>���l</rb><rp>�i</rp><rt>���ɂ�</rt><rp>�j</rp></ruby>���A<ruby><rb>������</rb><rp>�i</rp><rt>�炵�傤����</rt><rp>�j</rp></ruby>�̉��ŉJ��݂�҂��Ă����B<br />
-�@�L����̉��ɂ́A���̒j�̂ق��ɒN�����Ȃ��B�����A���X<ruby><rb>�O�h</rb><rp>�i</rp><rt>�ɂʂ�</rt><rp>�j</rp></ruby>��<ruby><rb>��</rb><rp>�i</rp><rt>��</rt><rp>�j</rp></ruby>�����A�傫��<ruby><rb>�~��</rb><rp>�i</rp><rt>�܂�΂���</rt><rp>�j</rp></ruby>�ɁA<ruby><rb>��</rb><rp>�i</rp><rt>���肬�肷</rt><rp>�j</rp></ruby>����C�Ƃ܂��Ă���B�����傪�A<ruby><rb>�鐝��H</rb><rp>�i</rp><rt>������������</rt><rp>�j</rp></ruby>�ɂ���ȏ�́A���̒j�̂ق��ɂ��A�J��݂�����<ruby><rb>�s���}</rb><rp>�i</rp><rt>�����߂���</rt><rp>�j</rp></ruby>��<ruby><rb>���G�X�q</rb><rp>�i</rp><rt>���݂��ڂ�</rt><rp>�j</rp></ruby>���A������O�l�͂��肻���Ȃ��̂ł���B���ꂪ�A���̒j�̂ق��ɂ͒N�����Ȃ��B<br />
-�@���̂��Ɖ]���ƁA���̓�O�N�A���s�ɂ́A�n�k�Ƃ�<ruby><rb>�ҕ�</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>�Ƃ��Ύ��Ƃ��_�[�Ƃ��]��<ruby><rb>��</rb><rp>�i</rp><rt>�킴�킢</rt><rp>�j</rp></ruby>���Â��ċN�����B������<ruby><rb>����</rb><rp>�i</rp><rt>�炭���イ</rt><rp>�j</rp></ruby>�̂��т���͈�ʂ�ł͂Ȃ��B���L�ɂ��ƁA�����╧���ōӂ��āA����<ruby><rb>�O</rb><rp>�i</rp><rt>��</rt><rp>�j</rp></ruby>��������A�����<ruby><rb>��</rb><rp>�i</rp><rt>�͂�</rt><rp>�j</rp></ruby>�������肵���؂��A�H�΂��ɂݏd�˂āA<ruby><rb>�d</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>��<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�ɔ����Ă����Ɖ]�����ł���B���������̎n���ł��邩��A������̏C���Ȃǂ́A�����N���̂ĂČڂ�҂��Ȃ������B����Ƃ��̍r��ʂĂ��̂��悢���ɂ��āA<ruby><rb>�ϒK</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>��<ruby><rb>��</rb><rp>�i</rp><rt>��</rt><rp>�j</rp></ruby>�ށB<ruby><rb>���l</rb><rp>�i</rp><rt>�ʂ��т�</rt><rp>�j</rp></ruby>�����ށB�Ƃ��Ƃ����܂��ɂ́A������̂Ȃ����l���A���̖�֎����ė��āA���Ăčs���Ɖ]���K�������o�����B�����ŁA���̖ڂ������Ȃ��Ȃ�ƁA�N�ł��C�������邪���āA���̖�̋ߏ��ւ͑��Ԃ݂����Ȃ����ɂȂ��Ă��܂����̂ł���B<br />
-�@���̑��܂�<ruby><rb>��</rb><rp>�i</rp><rt>���炷</rt><rp>�j</rp></ruby>���ǂ����炩�A��������W���ė����B���Ԍ���ƁA�����낪���H�ƂȂ��ւ�`���āA����<ruby><rb>����</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�̂܂���e���Ȃ���A��т܂���Ă���B���Ƃɖ�̏�̋󂪁A�[�Ă��ł������Ȃ鎞�ɂ́A���ꂪ<ruby><rb>�Ӗ�</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>���܂����悤�ɂ͂����茩�����B��́A�ܘ_�A��̏�ɂ��鎀�l�̓����A<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�݂ɗ���̂ł���B�\�\�����Ƃ������́A<ruby><rb>����</rb><rp>�i</rp><rt>��������</rt><rp>�j</rp></ruby>���x���������A��H�������Ȃ��B�����A���X�A���ꂩ�������A�������Ă��̕���ڂɒ������̂͂����Βi�̏�ɁA���<ruby><rb>��</rb><rp>�i</rp><rt>�ӂ�</rt><rp>�j</rp></ruby>���A�_�X�Ɣ������т���Ă���̂�������B���l�͎��i����Βi�̈�ԏ�̒i�ɁA�􂢂��炵������<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�̐K�𐘂��āA�E�̖j�ɏo�����A�傫��<ruby><rb>���</rb><rp>�i</rp><rt>�ɂ���</rt><rp>�j</rp></ruby>���C�ɂ��Ȃ���A�ڂ���A�J�̂ӂ�̂𒭂߂Ă����B<br />
-�@��҂͂������A�u���l���J��݂�҂��Ă����v�Ə������B�������A���l�͉J�����ł��A�i�ʂǂ����悤�Ɖ]�����Ă͂Ȃ��B�ӂ���Ȃ�A�ܘ_�A��l�̉Ƃ֋A������ł���B�������̎�l����́A�l�ܓ��O�ɉɂ��o���ꂽ�B�O�ɂ��������悤�ɁA�������s�̒��͈�ʂ�Ȃ炸<ruby><rb>����</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>���Ă����B�����̉��l���A�i�N�A�g���Ă�����l����A�ɂ��o���ꂽ�̂��A���͂��̐����̏����ȗ]�g�ɂق��Ȃ�Ȃ��B������u���l���J��݂�҂��Ă����v�Ɖ]�������u�J�ɂӂ肱�߂�ꂽ���l���A�s�������Ȃ��āA�r���ɂ���Ă����v�Ɖ]�������A�K���ł���B���̏�A�����̋�͗l�������炸�A���̕������̉��l�� Sentimentalisme �ɉe�������B<ruby><rb>�\</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>��<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby><ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�肩��ӂ�o�����J�́A���܂��ɏ�邯�������Ȃ��B�����ŁA���l�́A���������Ă�������<ruby><rb>����</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�̕邵���ǂ��ɂ����悤�Ƃ��ā\�\�]��΂ǂ��ɂ��Ȃ�Ȃ������A�ǂ��ɂ����悤�Ƃ��āA�Ƃ�Ƃ߂��Ȃ��l�������ǂ�Ȃ���A����������鐝��H�ɂӂ�J�̉����A�����Ƃ��Ȃ������Ă����̂ł���B<br />
-�@�J�́A���������ŁA��������A�������Ɖ]���������߂ė���B�[�ł͎���ɋ��Ⴍ���āA���グ��ƁA��̉������A�΂ɂ��o����<ruby><rb>�O</rb><rp>�i</rp><rt>���炩</rt><rp>�j</rp></ruby>�̐�ɁA�d���������Â��_���x���Ă���B<br />
-�@�ǂ��ɂ��Ȃ�Ȃ������A�ǂ��ɂ����邽�߂ɂ́A��i��I��ł���<ruby><rb>�</rb><rp>�i</rp><rt>���Ƃ�</rt><rp>�j</rp></ruby>�͂Ȃ��B�I��ł���΁A<ruby><rb>�z�y</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�̉����A���΂��̓y�̏�ŁA<ruby><rb>�_��</rb><rp>�i</rp><rt>��������</rt><rp>�j</rp></ruby>������΂���ł���B�������āA���̖�̏�֎����ė��āA���̂悤�Ɋ��Ă��Ă��܂��΂���ł���B�I�΂Ȃ��Ƃ���΁\�\���l�̍l���́A���x����������<ruby><rb>��j</rb><rp>�i</rp><rt>�Ă�����</rt><rp>�j</rp></ruby>����<ruby><rb>�g��</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>�ɁA����Ƃ��̋Ǐ���<ruby><rb>����</rb><rp>�i</rp><rt>�ق����Ⴍ</rt><rp>�j</rp></ruby>�����B���������́u����΁v�́A���܂ł����Ă��A���ǁu����΁v�ł������B���l�́A��i��I�΂Ȃ��Ƃ��������m�肵�Ȃ�����A���́u����΁v�̂��������邽�߂ɁA���R�A���̌�ɗ�����u<ruby><rb>���l</rb><rp>�i</rp><rt>�ʂ��т�</rt><rp>�j</rp></ruby>�ɂȂ���ق��Ɏd�����Ȃ��v�Ɖ]�������A�ϋɓI�ɍm�肷�邾���́A�E�C���o���ɂ����̂ł���B<br />
-�@���l�́A�傫��<ruby><rb>��</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>�����āA���ꂩ��A<ruby><rb>��V</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>�����ɗ�������B�[�₦�̂��鋞�s�́A����<ruby><rb>�Ή�</rb><rp>�i</rp><rt>�Ђ���</rt><rp>�j</rp></ruby>���~�����قǂ̊����ł���B���͖�̒��ƒ��Ƃ̊Ԃ��A�[�łƋ��ɉ����Ȃ��A�����ʂ���B<ruby><rb>�O�h</rb><rp>�i</rp><rt>�ɂʂ�</rt><rp>�j</rp></ruby>�̒��ɂƂ܂��Ă���<ruby><rb>��</rb><rp>�i</rp><rt>���肬�肷</rt><rp>�j</rp></ruby>���A�����ǂ����֍s���Ă��܂����B<br />
-�@���l�́A<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�������߂Ȃ���A<ruby><rb>�R��</rb><rp>�i</rp><rt>��܂Ԃ�</rt><rp>�j</rp></ruby>��<ruby><rb>����</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>�ɏd�˂��A����<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�̌����������Ė�̂܂������܂킵���B�J����<ruby><rb>��</rb><rp>�i</rp><rt>���ꂦ</rt><rp>�j</rp></ruby>�̂Ȃ��A�l�ڂɂ�����<ruby><rb>��</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>�̂Ȃ��A��ӊy�ɂ˂�ꂻ���ȏ�������΁A�����łƂ��������A��𖾂������Ǝv��������ł���B����ƁA�K����̏�̘O�֏��A���̍L���A������O��h����<ruby><rb>��q</rb><rp>�i</rp><rt>�͂���</rt><rp>�j</rp></ruby>����ɂ����B��Ȃ�A�l�������ɂ��Ă��A�ǂ������l�΂���ł���B���l�͂����ŁA���ɂ�����<ruby><rb>����</rb><rp>�i</rp><rt>�Ђ���Â�</rt><rp>�j</rp></ruby>��<ruby><rb>����</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>��<ruby><rb>�⑖</rb><rp>�i</rp><rt>����΂�</rt><rp>�j</rp></ruby>��Ȃ��悤�ɋC�����Ȃ���A<ruby><rb>�m����</rb><rp>�i</rp><rt>��炼����</rt><rp>�j</rp></ruby>���͂��������A���̒�q�̈�ԉ��̒i�ւӂ݂������B<br />
-�@���ꂩ��A�������̌�ł���B������̘O�̏�֏o��A���̍L����q�̒��i�ɁA��l�̒j���A�L�̂悤�ɐg�������߂āA�����E���Ȃ���A���<ruby><rb>�e�q</rb><rp>�i</rp><rt>�悤��</rt><rp>�j</rp></ruby>���M���Ă����B�O�̏ォ�炳���΂̌����A�������ɁA���̒j�̉E�̖j���ʂ炵�Ă���B�Z��颂̒��ɁA�Ԃ�<ruby><rb>�^</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>��������<ruby><rb>���</rb><rp>�i</rp><rt>�ɂ���</rt><rp>�j</rp></ruby>�̂���j�ł���B���l�́A�n�߂���A���̏�ɂ���҂́A���l�΂��肾�ƍ���<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>���Ă����B���ꂪ�A��q���O�i����Č���ƁA��ł͒N���΂��Ƃڂ��āA���������̉΂����������Ɠ������Ă���炵���B����́A���̑������A�����낢�����A���X��<ruby><rb>�w�</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�̑����������V�䗠�ɁA�h��Ȃ���f�����̂ŁA�����ɂ���ƒm�ꂽ�̂ł���B���̉J�̖�ɁA���̗�����̏�ŁA�΂��Ƃ����Ă��邩��́A�ǂ��������̎҂ł͂Ȃ��B<br />
-�@���l�́A<ruby><rb>��{</rb><rp>�i</rp><rt>�����</rt><rp>�j</rp></ruby>�̂悤�ɑ������ʂ���ŁA����Ƌ}�Ȓ�q���A��ԏ�̒i�܂Ŕ����悤�ɂ��ď��߂��B�������đ̂��o���邾���A<ruby><rb>��</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>�ɂ��Ȃ���A����o���邾���A�O�֏o���āA���鋰��A�O�̓���<ruby><rb>�`</rb><rp>�i</rp><rt>�̂�</rt><rp>�j</rp></ruby>���Č����B<br />
-�@����ƁA�O�̓��ɂ́A�\�ɕ������ʂ�A�����<ruby><rb>���[</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>���A������Ɋ��ĂĂ��邪�A�΂̌��̋y�Ԕ͈͂��A�v������苷���̂ŁA���͊�Ƃ��킩��Ȃ��B�����A���ڂ낰�Ȃ���A�m���̂́A���̒��ɗ��̎��[�ƁA�����𒅂����[�Ƃ�����Ƃ������ł���B�ܘ_�A���ɂ͏����j���܂����Ă���炵���B�������āA���̎��[�͊F�A���ꂪ�A���āA�����Ă����l�Ԃ��Ɖ]�����������^����قǁA�y��<ruby><rb>�s</rb><rp>�i</rp><rt>��</rt><rp>�j</rp></ruby>�˂đ������l�`�̂悤�ɁA����<ruby><rb>�J</rb><rp>�i</rp><rt>��</rt><rp>�j</rp></ruby>�����������΂����肵�āA���낲�돰�̏�ɂ��낪���Ă����B�������A���Ƃ����Ƃ��̍����Ȃ��Ă��镔���ɁA�ڂ��肵���΂̌��������āA�Ⴍ�Ȃ��Ă��镔���̉e����w�Â����Ȃ���A�i�v��<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�̔@���ق��Ă����B<br />
-�@<ruby><rb>���l</rb><rp>�i</rp><rt>���ɂ�</rt><rp>�j</rp></ruby>�́A�����̎��[��<ruby><rb>���</rb><rp>�i</rp><rt>�ӂ��</rt><rp>�j</rp></ruby>�����L�C�Ɏv�킸�A�@��<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�����B�������A���̎�́A���̏u�Ԃɂ́A�����@����������Y��Ă����B���鋭������A�قƂ�ǂ��Ƃ��Ƃ����̒j�̚k�o��D���Ă��܂������炾�B<br />
-�@���l�̊�́A���̎��A�͂��߂Ă��̎��[�̒���<ruby><rb>�L</rb><rp>�i</rp><rt>��������</rt><rp>�j</rp></ruby>���Ă���l�Ԃ������B<ruby><rb>�w��F</rb><rp>�i</rp><rt>�Ђ킾����</rt><rp>�j</rp></ruby>�̒����𒅂��A�w�̒Ⴂ�A<ruby><rb>��</rb><rp>�i</rp><rt>��</rt><rp>�j</rp></ruby>�����A<ruby><rb>������</rb><rp>�i</rp><rt>���炪������</rt><rp>�j</rp></ruby>�́A���̂悤�ȘV�k�ł���B���̘V�k�́A�E�̎�ɉ΂��Ƃ���������<ruby><rb>�ؕ�</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>�������āA���̎��[�̈�̊��`�����ނ悤�ɒ��߂Ă����B���̖т̒�����������ƁA�������̎��[�ł��낤�B<br />
-�@���l�́A�Z���̋��|�Ǝl���̍D��S�Ƃɓ�������āA<ruby><rb>�b��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>��<ruby><rb>�ċz</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>������̂����Y��Ă����B���L�̋L�҂̌���؂��΁A�u<ruby><rb>���g</rb><rp>�i</rp><rt>�Ƃ�����</rt><rp>�j</rp></ruby>�̖т�����v�悤�Ɋ������̂ł���B����ƘV�k�́A���̖ؕЂ��A���̊Ԃɑ}���āA���ꂩ��A���܂Œ��߂Ă������[�̎�ɗ����������ƁA���x�A���̐e�����̎q��<ruby><rb>�l</rb><rp>�i</rp><rt>�����</rt><rp>�j</rp></ruby>���Ƃ�悤�ɁA���̒������̖т���{�������͂��߂��B���͎�ɏ]���Ĕ�����炵���B<br />
-�@���̔��̖т��A��{��������̂ɏ]���āA���l�̐S����́A���|�������������čs�����B�������āA����Ɠ����ɁA���̘V�k�ɑ΂���͂������������A�����������ė����B�\�\����A���̘V�k�ɑ΂���Ɖ]���ẮA<ruby><rb>�ꕾ</rb><rp>�i</rp><rt>���ւ�</rt><rp>�j</rp></ruby>�����邩���m��Ȃ��B�ނ���A�����鈫�ɑ΂��锽�����A�ꕪ���ɋ����𑝂��ė����̂ł���B���̎��A�N�������̉��l�ɁA��������̉��ł��̒j���l���Ă����A<ruby><rb>�_��</rb><rp>�i</rp><rt>��������</rt><rp>�j</rp></ruby>�����邩<ruby><rb>���l</rb><rp>�i</rp><rt>�ʂ��т�</rt><rp>�j</rp></ruby>�ɂȂ邩�Ɖ]�������A���߂Ď��o������A���炭���l�́A���̖������Ȃ��A�_����I�񂾎��ł��낤�B����قǁA���̒j�̈��𑞂ސS�́A�V�k�̏��ɑ}��������<ruby><rb>�ؕ�</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>�̂悤�ɁA�����悭�R�����o���Ă����̂ł���B<br />
-�@���l�ɂ́A�ܘ_�A���̘V�k�����l�̔��̖т𔲂����킩��Ȃ������B�]���āA�����I�ɂ́A�����P���̂�����ɕЂÂ��Ă悢���m��Ȃ������B���������l�ɂƂ��ẮA���̉J�̖�ɁA���̗�����̏�ŁA���l�̔��̖т𔲂��Ɖ]�������A���ꂾ���Ŋ��ɋ����ׂ��炴�鈫�ł������B�ܘ_�A���l�́A�������܂Ŏ������A���l�ɂȂ�C�ł������Ȃ��́A�Ƃ��ɖY��Ă����̂ł���B<br />
-�@�����ŁA���l�́A�����ɗ͂����āA�����Ȃ�A��q�����֔�я�����B��������<ruby><rb>����</rb><rp>�i</rp><rt>�Ђ���Â�</rt><rp>�j</rp></ruby>�̑����Ɏ�������Ȃ���A��҂ɘV�k�̑O�֕��݂�����B�V�k���������͉̂]���܂ł��Ȃ��B<br />
-�@�V�k�́A��ډ��l������ƁA�܂��<ruby><rb>�W</rb><rp>�i</rp><rt>�������</rt><rp>�j</rp></ruby>�ɂł�<ruby><rb>�e</rb><rp>�i</rp><rt>�͂�</rt><rp>�j</rp></ruby>���ꂽ�悤�ɁA��я�����B<br />
-�u���̂�A�ǂ��֍s���B�v<br />
-�@���l�́A�V�k�����[�ɂ܂����Ȃ���A�Q�Ăӂ��߂��ē����悤�Ƃ���s���<ruby><rb>��</rb><rp>�i</rp><rt>�ӂ�</rt><rp>�j</rp></ruby>���ŁA����<ruby><rb>�l</rb><rp>�i</rp><rt>�̂̂�</rt><rp>�j</rp></ruby>�����B�V�k�́A����ł����l�����̂��čs�����Ƃ���B���l�͂܂��A������s�����܂��Ƃ��āA�������ǂ��B��l�͎��[�̒��ŁA���΂炭�A�����̂܂܁A���ݍ������B���������s�́A�͂��߂���킩���Ă���B���l�͂Ƃ��Ƃ��A�V�k�̘r������ŁA�����ɂ�����<ruby><rb><img src="../../../gaiji/2-12/2-12-93.png" alt="��(�u�Ăւ�{�N�v�A��4����2-12-93)" class="gaiji" /></rb><rp>�i</rp><rt>��</rt><rp>�j</rp></ruby>���|�����B���x�A<ruby><rb>�{</rb><rp>�i</rp><rt>�ɂ�Ƃ�</rt><rp>�j</rp></ruby>�̋r�̂悤�ȁA���Ɣ�΂���̘r�ł���B<br />
-�u�������Ă����B�]���B�]��ʂƁA���ꂾ����B�v<br />
-�@���l�́A�V�k���������ƁA�����Ȃ�A������<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�𕥂��āA����<ruby><rb>�|</rb><rp>�i</rp><rt>�͂���</rt><rp>�j</rp></ruby>�̐F�����̊�̑O�ւ������B����ǂ��A�V�k�͖ق��Ă���B�������Ȃ�Ȃӂ�킹�āA���ő���؂�Ȃ���A����A<ruby><rb>�ዅ</rb><rp>�i</rp><rt>�߂���</rt><rp>�j</rp></ruby>��<ruby><rb><img src="../../../gaiji/1-88/1-88-81.png" alt="��(�u�ځ{���v�A��3����1-88-81)" class="gaiji" /></rb><rp>�i</rp><rt>�܂Ԃ�</rt><rp>�j</rp></ruby>�̊O�֏o�����ɂȂ�قǁA���J���āA���̂悤��<ruby><rb>���X</rb><rp>�i</rp><rt>���イ��</rt><rp>�j</rp></ruby>���ق��Ă���B���������ƁA���l�͎n�߂Ė����ɂ��̘V�k�̐������A�S�R�A�����̈ӎu�Ɏx�z����Ă���Ɖ]�������ӎ������B�������Ă��̈ӎ��́A���܂ł��킵���R���Ă��������̐S���A���̊Ԃɂ���܂��Ă��܂����B<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�Ɏc�����̂́A�����A����d�������āA���ꂪ�~���ɐ��A�������́A���炩�ȓ��ӂƖ����Ƃ�����΂���ł���B�����ŁA���l�́A�V�k���������Ȃ���A���������_�炰�Ă����]�����B<br />
-�u<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>��<ruby><rb>�����g</rb><rp>�i</rp><rt>���т���</rt><rp>�j</rp></ruby>�̒��̖�l�Ȃǂł͂Ȃ��B���������̖�̉���ʂ肩���������̎҂��B�����炨�O��<ruby><rb>��</rb><rp>�i</rp><rt>�Ȃ�</rt><rp>�j</rp></ruby>�������āA�ǂ����悤�Ɖ]���悤�Ȏ��͂Ȃ��B�����A���������̖�̏�ŁA�������ċ����̂����A������Ȃɘb����������΂����̂��B�v<br />
-�@����ƁA�V�k�́A���J���Ă�������A��w�傫�����āA�����Ƃ��̉��l�̊����������B<ruby><rb><img src="../../../gaiji/1-88/1-88-81.png" alt="��(�u�ځ{���v�A��3����1-88-81)" class="gaiji" /></rb><rp>�i</rp><rt>�܂Ԃ�</rt><rp>�j</rp></ruby>�̐Ԃ��Ȃ����A���H���̂悤�ȁA�s����Ō����̂ł���B���ꂩ��AᰂŁA�قƂ�ǁA�@�ƈ�ɂȂ����O���A�������ł�����ł���悤�ɓ��������B�ׂ��A�ŁA�����<ruby><rb>�A��</rb><rp>�i</rp><rt>�̂ǂڂƂ�</rt><rp>�j</rp></ruby>�̓����Ă���̂�������B���̎��A���̍A����A<ruby><rb>��</rb><rp>�i</rp><rt>���炷</rt><rp>�j</rp></ruby>�̚e���悤�Ȑ����A<ruby><rb>�b</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>���b���A���l�̎��֓`����ė����B<br />
-�u���̔��𔲂��ĂȁA���̔��𔲂��ĂȁA<ruby><rb>�</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>�ɂ��悤�Ǝv�����̂���B�v<br />
-�@���l�́A�V�k�̓������O�A���}�Ȃ̂Ɏ��]�����B�������Ď��]����Ɠ����ɁA�܂��O�̑������A��₩��<ruby><rb>����</rb><rp>�i</rp><rt>�Ԃׂ�</rt><rp>�j</rp></ruby>�ƈꂵ��ɁA�S�̒��ւ͂����ė����B����ƁA����<ruby><rb>�C�F</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>���A����ւ��ʂ����̂ł��낤�B�V�k�́A�Ў�ɁA�܂����[�̓�����D�������������т��������Ȃ�A<ruby><rb>�</rb><rp>�i</rp><rt>�Ђ�</rt><rp>�j</rp></ruby>�̂Ԃ₭�悤�Ȑ��ŁA��������Ȃ���A����Ȏ����]�����B<br />
-�u�����ȁA<ruby><rb>���l</rb><rp>�i</rp><rt>���т�</rt><rp>�j</rp></ruby>�̔��̖т𔲂��Ɖ]�����́A���ڂ������������m��ʁB���Ⴊ�A�����ɂ��鎀�l�ǂ��́A�F�A���̂��炢�Ȏ����A����Ă������l�Ԃ΂��肾����B���݁A�킵�����A���𔲂������Ȃǂ͂ȁA�ւ�<ruby><rb>�l��</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>�΂��肸�ɐ؂��Ċ������̂��A<ruby><rb>����</rb><rp>�i</rp><rt>�ق�����</rt><rp>�j</rp></ruby>���Ɖ]���āA<ruby><rb>������</rb><rp>�i</rp><rt>���Ă킫</rt><rp>�j</rp></ruby>�̐w�֔����<ruby><rb>��</rb><rp>�i</rp><rt>��</rt><rp>�j</rp></ruby>�񂾂�B<ruby><rb>�u�a</rb><rp>�i</rp><rt>�����</rt><rp>�j</rp></ruby>�ɂ������Ď��ȂȂ񂾂�A���ł�����ɉ���ł������ł���B�������A���̏��̔��銱���́A�����悢�Ɖ]���āA�����тǂ����A��������<ruby><rb>�ؗ�</rb><rp>�i</rp><rt>������悤</rt><rp>�j</rp></ruby>�ɔ����Ă��������ȁB�킵�́A���̏��̂������������Ƃ͎v���Ă��ʁB���˂΁A�_��������̂���āA�d�����Ȃ��������ł���B����΁A���܂��A�킵�̂��Ă��������������Ƃ͎v��ʂ���B����ƂĂ���͂肹�˂΁A�_�������邶��āA�d�����Ȃ����鎖����킢�́B����āA���̎d�����Ȃ������A�悭�m���Ă������̏��́A����킵�̂��鎖����ڂɌ��Ă����ł���B�v<br />
-�@�V�k�́A��̂���ȈӖ��̎����]�����B<br />
-�@���l�́A������<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>�ɂ����߂āA���̑�����<ruby><rb>��</rb><rp>�i</rp><rt>��</rt><rp>�j</rp></ruby>�����̎�ł������Ȃ���A��R�Ƃ��āA���̘b�𕷂��Ă����B�ܘ_�A�E�̎�ł́A�Ԃ��j�ɔ^���������傫��<ruby><rb>���</rb><rp>�i</rp><rt>�ɂ���</rt><rp>�j</rp></ruby>���C�ɂ��Ȃ���A�����Ă���̂ł���B�������A����𕷂��Ă��钆�ɁA���l�̐S�ɂ́A����E�C�����܂�ė����B����́A��������̉��ŁA���̒j�ɂ͌����Ă����E�C�ł���B�������āA�܂����������̖�̏�֏���āA���̘V�k��߂������̗E�C�Ƃ́A�S�R�A���΂ȕ����ɓ������Ƃ���E�C�ł���B���l�́A�_�������邩���l�ɂȂ邩�ɁA����Ȃ������΂���ł͂Ȃ��B���̎��̂��̒j�̐S��������]���΁A�_���ȂǂƉ]�����́A�قƂ�ǁA�l���鎖�����o���Ȃ��قǁA�ӎ��̊O�ɒǂ��o����Ă����B<br />
-�u�����ƁA�������B�v<br />
-�@�V�k�̘b��<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>��ƁA���l��<ruby><rb>�}</rb><rp>�i</rp><rt>������</rt><rp>�j</rp></ruby>��悤�Ȑ��ŔO���������B�������āA�ꑫ�O�֏o��ƁA�s�ӂɉE�̎��<ruby><rb>���</rb><rp>�i</rp><rt>�ɂ���</rt><rp>�j</rp></ruby>���痣���āA�V�k��<ruby><rb>�ݏ�</rb><rp>�i</rp><rt>���肪��</rt><rp>�j</rp></ruby>�����݂Ȃ���A���݂��悤�ɂ����]�����B<br />
-�u�ł́A<ruby><rb>��</rb><rp>�i</rp><rt>����</rt><rp>�j</rp></ruby>��<ruby><rb>����</rb><rp>�i</rp><rt>�Ђ͂�</rt><rp>�j</rp></ruby>�����悤�ƍ��ނ܂��ȁB�Ȃ��������Ȃ���΁A�_��������̂Ȃ̂��B�v<br />
-�@���l�́A���΂₭�A�V�k�̒����𔍂��Ƃ����B���ꂩ��A���ɂ����݂����Ƃ���V�k���A��r�����[�̏�֏R�|�����B��q�̌��܂ł́A�͂Ɍܕ��𐔂���΂���ł���B���l�́A�����Ƃ���<ruby><rb>�w��F</rb><rp>�i</rp><rt>�Ђ킾����</rt><rp>�j</rp></ruby>�̒������킫�ɂ������āA�܂������Ԃɋ}�Ȓ�q���̒�ւ������肽�B<br />
-�@���΂炭�A���񂾂悤�ɓ|��Ă����V�k���A���[�̒�����A���̗��̑̂��N�����̂́A���ꂩ��Ԃ��Ȃ��̎��ł���B�V�k�͂Ԃ₭�悤�ȁA���߂��悤�Ȑ��𗧂ĂȂ���A�܂��R���Ă���΂̌��������ɁA��q�̌��܂ŁA�����čs�����B�������āA��������A�Z��<ruby><rb>����</rb><rp>�i</rp><rt>���炪</rt><rp>�j</rp></ruby>��<ruby><rb>�|</rb><rp>�i</rp><rt>��������</rt><rp>�j</rp></ruby>�ɂ��āA��̉���`�����񂾁B�O�ɂ́A�����A<ruby><rb>�����X</rb><rp>�i</rp><rt>�����Ƃ��Ƃ�</rt><rp>�j</rp></ruby>����邪����΂���ł���B<br />
-�@���l��<ruby><rb>�s��</rb><rp>�i</rp><rt>�䂭��</rt><rp>�j</rp></ruby>�́A�N���m��Ȃ��B<br />
-<div class="chitsuki_1" style="text-align:right; margin-right: 1em">�i�吳�l�N�㌎�j</div>
-<br />
-<br />
-<br />
-</div>
-<div class="bibliographical_information">
-<hr />
-<br />
-��{�F�u�H�열�V��S�W1�v�����ܕ��ɁA�}�����[<br />
-�@�@�@1986�i���a61�j�N9��24����1�����s<br />
-�@�@�@1997�i����9�j�N4��15����14�����s<br />
-��{�̐e�{�F�u�}���S�W���ڔŊH�열�V��S�W�v�}�����[<br />
-�@�@�@1971�i���a46�j�N3���`1971�i���a46�j�N11��<br />
-���́F���R���A����p�i<br />
-�Z���F����݂����<br />
-1997�N10��29�����J<br />
-2010�N11��4���C��<br />
-�󕶌ɍ쐬�t�@�C���F<br />
-���̃t�@�C���́A�C���^�[�l�b�g�̐}���فA<a href="http://www.aozora.gr.jp/">�󕶌Ɂihttp://www.aozora.gr.jp/�j</a>�ō���܂����B���́A�Z���A����ɂ��������̂́A�{�����e�B�A�̊F����ł��B<br />
-<br />
-<br />
-</div>
-<div class="notation_notes">
-<hr />
-<br />
-���\�L�ɂ���<br />
-<ul>
-	<li>���̃t�@�C���� W3C ���� XHTML1.1 �ɂ������`���ō쐬����Ă��܂��B</li>
-	<li>�u���̎��_�v���̂���JIS X 0213�ɂ��镶���́A�摜�����Ė��ߍ��݂܂����B</li>
-</ul>
-</div>
-<div id="card">
-<hr />
-<br />
-<a href="JavaScript:goLibCard();" id="goAZLibCard">���}���J�[�h</a><script type="text/javascript" src="../../contents.js"></script>
-<script type="text/javascript" src="../../golibcard.js"></script>
-</div></body>
-</html>
+
+<body  contenteditable=true>
+<div class="metadata"><h1 class="title">羅生門</h1><h2 class="author">芥川龍之介</h2><br /><br /></div><div id="contents" style="display:none"></div><div class="main_text"><br />　ある日の暮方の事である。一人の<ruby><rb>下人</rb><rt>げにん</rt></ruby>が、<ruby><rb>羅生門</rb><rt>らしょうもん</rt></ruby>の下で雨やみを待っていた。<br />　広い門の下には、この男のほかに誰もいない。ただ、所々<ruby><rb>丹塗</rb><rt>にぬり</rt></ruby>の<ruby><rb>剥</rb><rt>は</rt></ruby>げた、大きな<ruby><rb>円柱</rb><rt>まるばしら</rt></ruby>に、<ruby><rb>蟋蟀</rb><rt>きりぎりす</rt></ruby>が一匹とまっている。羅生門が、<ruby><rb>朱雀大路</rb><rt>すざくおおじ</rt></ruby>にある以上は、この男のほかにも、雨やみをする<ruby><rb>市女笠</rb><rt>いちめがさ</rt></ruby>や<ruby><rb>揉烏帽子</rb><rt>もみえぼし</rt></ruby>が、もう二三人はありそうなものである。それが、この男のほかには誰もいない。<br />　何故かと云うと、この二三年、京都には、地震とか<ruby><rb>辻風</rb><rt>つじかぜ</rt></ruby>とか火事とか饑饉とか云う<ruby><rb>災</rb><rt>わざわい</rt></ruby>がつづいて起った。そこで<ruby><rb>洛中</rb><rt>らくちゅう</rt></ruby>のさびれ方は一通りではない。旧記によると、仏像や仏具を打砕いて、その<ruby><rb>丹</rb><rt>に</rt></ruby>がついたり、金銀の<ruby><rb>箔</rb><rt>はく</rt></ruby>がついたりした木を、路ばたにつみ重ねて、<ruby><rb>薪</rb><rt>たきぎ</rt></ruby>の<ruby><rb>料</rb><rt>しろ</rt></ruby>に売っていたと云う事である。洛中がその始末であるから、羅生門の修理などは、元より誰も捨てて顧る者がなかった。するとその荒れ果てたのをよい事にして、<ruby><rb>狐狸</rb><rt>こり</rt></ruby>が<ruby><rb>棲</rb><rt>す</rt></ruby>む。<ruby><rb>盗人</rb><rt>ぬすびと</rt></ruby>が棲む。とうとうしまいには、引取り手のない死人を、この門へ持って来て、棄てて行くと云う習慣さえ出来た。そこで、日の目が見えなくなると、誰でも気味を悪るがって、この門の近所へは足ぶみをしない事になってしまったのである。<br />　その代りまた<ruby><rb>鴉</rb><rt>からす</rt></ruby>がどこからか、たくさん集って来た。昼間見ると、その鴉が何羽となく輪を描いて、高い<ruby><rb>鴟尾</rb><rt>しび</rt></ruby>のまわりを啼きながら、飛びまわっている。ことに門の上の空が、夕焼けであかくなる時には、それが<ruby><rb>胡麻</rb><rt>ごま</rt></ruby>をまいたようにはっきり見えた。鴉は、勿論、門の上にある死人の肉を、<ruby><rb>啄</rb><rt>ついば</rt></ruby>みに来るのである。——もっとも今日は、<ruby><rb>刻限</rb><rt>こくげん</rt></ruby>が遅いせいか、一羽も見えない。ただ、所々、崩れかかった、そうしてその崩れ目に長い草のはえた石段の上に、鴉の<ruby><rb>糞</rb><rt>ふん</rt></ruby>が、点々と白くこびりついているのが見える。下人は七段ある石段の一番上の段に、洗いざらした紺の<ruby><rb>襖</rb><rt>あお</rt></ruby>の尻を据えて、右の頬に出来た、大きな<ruby><rb>面皰</rb><rt>にきび</rt></ruby>を気にしながら、ぼんやり、雨のふるのを眺めていた。<br />　作者はさっき、「下人が雨やみを待っていた」と書いた。しかし、下人は雨がやんでも、格別どうしようと云う当てはない。ふだんなら、勿論、主人の家へ帰る可き筈である。所がその主人からは、四五日前に暇を出された。前にも書いたように、当時京都の町は一通りならず<ruby><rb>衰微</rb><rt>すいび</rt></ruby>していた。今この下人が、永年、使われていた主人から、暇を出されたのも、実はこの衰微の小さな余波にほかならない。だから「下人が雨やみを待っていた」と云うよりも「雨にふりこめられた下人が、行き所がなくて、途方にくれていた」と云う方が、適当である。その上、今日の空模様も少からず、この平安朝の下人の Sentimentalisme に影響した。<ruby><rb>申</rb><rt>さる</rt></ruby>の<ruby><rb>刻</rb><rt>こく</rt></ruby><ruby><rb>下</rb><rt>さが</rt></ruby>りからふり出した雨は、いまだに上るけしきがない。そこで、下人は、何をおいても差当り<ruby><rb>明日</rb><rt>あす</rt></ruby>の暮しをどうにかしようとして——云わばどうにもならない事を、どうにかしようとして、とりとめもない考えをたどりながら、さっきから朱雀大路にふる雨の音を、聞くともなく聞いていたのである。<br />　雨は、羅生門をつつんで、遠くから、ざあっと云う音をあつめて来る。夕闇は次第に空を低くして、見上げると、門の屋根が、斜につき出した<ruby><rb>甍</rb><rt>いらか</rt></ruby>の先に、重たくうす暗い雲を支えている。<br />　どうにもならない事を、どうにかするためには、手段を選んでいる<ruby><rb>遑</rb><rt>いとま</rt></ruby>はない。選んでいれば、<ruby><rb>築土</rb><rt>ついじ</rt></ruby>の下か、道ばたの土の上で、<ruby><rb>饑死</rb><rt>うえじに</rt></ruby>をするばかりである。そうして、この門の上へ持って来て、犬のように棄てられてしまうばかりである。選ばないとすれば——下人の考えは、何度も同じ道を<ruby><rb>低徊</rb><rt>ていかい</rt></ruby>した<ruby><rb>揚句</rb><rt>あげく</rt></ruby>に、やっとこの局所へ<ruby><rb>逢着</rb><rt>ほうちゃく</rt></ruby>した。しかしこの「すれば」は、いつまでたっても、結局「すれば」であった。下人は、手段を選ばないという事を肯定しながらも、この「すれば」のかたをつけるために、当然、その後に来る可き「<ruby><rb>盗人</rb><rt>ぬすびと</rt></ruby>になるよりほかに仕方がない」と云う事を、積極的に肯定するだけの、勇気が出ずにいたのである。<br />　下人は、大きな<ruby><rb>嚔</rb><rt>くさめ</rt></ruby>をして、それから、<ruby><rb>大儀</rb><rt>たいぎ</rt></ruby>そうに立上った。夕冷えのする京都は、もう<ruby><rb>火桶</rb><rt>ひおけ</rt></ruby>が欲しいほどの寒さである。風は門の柱と柱との間を、夕闇と共に遠慮なく、吹きぬける。<ruby><rb>丹塗</rb><rt>にぬり</rt></ruby>の柱にとまっていた<ruby><rb>蟋蟀</rb><rt>きりぎりす</rt></ruby>も、もうどこかへ行ってしまった。<br />　下人は、<ruby><rb>頸</rb><rt>くび</rt></ruby>をちぢめながら、<ruby><rb>山吹</rb><rt>やまぶき</rt></ruby>の<ruby><rb>汗袗</rb><rt>かざみ</rt></ruby>に重ねた、紺の<ruby><rb>襖</rb><rt>あお</rt></ruby>の肩を高くして門のまわりを見まわした。雨風の<ruby><rb>患</rb><rt>うれえ</rt></ruby>のない、人目にかかる<ruby><rb>惧</rb><rt>おそれ</rt></ruby>のない、一晩楽にねられそうな所があれば、そこでともかくも、夜を明かそうと思ったからである。すると、幸い門の上の楼へ上る、幅の広い、これも丹を塗った<ruby><rb>梯子</rb><rt>はしご</rt></ruby>が眼についた。上なら、人がいたにしても、どうせ死人ばかりである。下人はそこで、腰にさげた<ruby><rb>聖柄</rb><rt>ひじりづか</rt></ruby>の<ruby><rb>太刀</rb><rt>たち</rt></ruby>が<ruby><rb>鞘走</rb><rt>さやばし</rt></ruby>らないように気をつけながら、<ruby><rb>藁草履</rb><rt>わらぞうり</rt></ruby>をはいた足を、その梯子の一番下の段へふみかけた。<br />　それから、何分かの後である。羅生門の楼の上へ出る、幅の広い梯子の中段に、一人の男が、猫のように身をちぢめて、息を殺しながら、上の<ruby><rb>容子</rb><rt>ようす</rt></ruby>を窺っていた。楼の上からさす火の光が、かすかに、その男の右の頬をぬらしている。短い鬚の中に、赤く<ruby><rb>膿</rb><rt>うみ</rt></ruby>を持った<ruby><rb>面皰</rb><rt>にきび</rt></ruby>のある頬である。下人は、始めから、この上にいる者は、死人ばかりだと高を<ruby><rb>括</rb><rt>くく</rt></ruby>っていた。それが、梯子を二三段上って見ると、上では誰か火をとぼして、しかもその火をそこここと動かしているらしい。これは、その濁った、黄いろい光が、隅々に<ruby><rb>蜘蛛</rb><rt>くも</rt></ruby>の巣をかけた天井裏に、揺れながら映ったので、すぐにそれと知れたのである。この雨の夜に、この羅生門の上で、火をともしているからは、どうせただの者ではない。<br />　下人は、<ruby><rb>守宮</rb><rt>やもり</rt></ruby>のように足音をぬすんで、やっと急な梯子を、一番上の段まで這うようにして上りつめた。そうして体を出来るだけ、<ruby><rb>平</rb><rt>たいら</rt></ruby>にしながら、頸を出来るだけ、前へ出して、恐る恐る、楼の内を<ruby><rb>覗</rb><rt>のぞ</rt></ruby>いて見た。<br />　見ると、楼の内には、噂に聞いた通り、幾つかの<ruby><rb>死骸</rb><rt>しがい</rt></ruby>が、無造作に棄ててあるが、火の光の及ぶ範囲が、思ったより狭いので、数は幾つともわからない。ただ、おぼろげながら、知れるのは、その中に裸の死骸と、着物を着た死骸とがあるという事である。勿論、中には女も男もまじっているらしい。そうして、その死骸は皆、それが、かつて、生きていた人間だと云う事実さえ疑われるほど、土を<ruby><rb>捏</rb><rt>こ</rt></ruby>ねて造った人形のように、口を<ruby><rb>開</rb><rt>あ</rt></ruby>いたり手を延ばしたりして、ごろごろ床の上にころがっていた。しかも、肩とか胸とかの高くなっている部分に、ぼんやりした火の光をうけて、低くなっている部分の影を一層暗くしながら、永久に<ruby><rb>唖</rb><rt>おし</rt></ruby>の如く黙っていた。<br />　<ruby><rb>下人</rb><rt>げにん</rt></ruby>は、それらの死骸の<ruby><rb>腐爛</rb><rt>ふらん</rt></ruby>した臭気に思わず、鼻を<ruby><rb>掩</rb><rt>おお</rt></ruby>った。しかし、その手は、次の瞬間には、もう鼻を掩う事を忘れていた。ある強い感情が、ほとんどことごとくこの男の嗅覚を奪ってしまったからだ。<br />　下人の眼は、その時、はじめてその死骸の中に<ruby><rb>蹲</rb><rt>うずくま</rt></ruby>っている人間を見た。<ruby><rb>檜皮色</rb><rt>ひわだいろ</rt></ruby>の着物を着た、背の低い、<ruby><rb>痩</rb><rt>や</rt></ruby>せた、<ruby><rb>白髪頭</rb><rt>しらがあたま</rt></ruby>の、猿のような老婆である。その老婆は、右の手に火をともした松の<ruby><rb>木片</rb><rt>きぎれ</rt></ruby>を持って、その死骸の一つの顔を覗きこむように眺めていた。髪の毛の長い所を見ると、多分女の死骸であろう。<br />　下人は、六分の恐怖と四分の好奇心とに動かされて、<ruby><rb>暫時</rb><rt>ざんじ</rt></ruby>は<ruby><rb>呼吸</rb><rt>いき</rt></ruby>をするのさえ忘れていた。旧記の記者の語を借りれば、「<ruby><rb>頭身</rb><rt>とうしん</rt></ruby>の毛も太る」ように感じたのである。すると老婆は、松の木片を、床板の間に挿して、それから、今まで眺めていた死骸の首に両手をかけると、丁度、猿の親が猿の子の<ruby><rb>虱</rb><rt>しらみ</rt></ruby>をとるように、その長い髪の毛を一本ずつ抜きはじめた。髪は手に従って抜けるらしい。<br />　その髪の毛が、一本ずつ抜けるのに従って、下人の心からは、恐怖が少しずつ消えて行った。そうして、それと同時に、この老婆に対するはげしい憎悪が、少しずつ動いて来た。——いや、この老婆に対すると云っては、<ruby><rb>語弊</rb><rt>ごへい</rt></ruby>があるかも知れない。むしろ、あらゆる悪に対する反感が、一分毎に強さを増して来たのである。この時、誰かがこの下人に、さっき門の下でこの男が考えていた、<ruby><rb>饑死</rb><rt>うえじに</rt></ruby>をするか<ruby><rb>盗人</rb><rt>ぬすびと</rt></ruby>になるかと云う問題を、改めて持出したら、恐らく下人は、何の未練もなく、饑死を選んだ事であろう。それほど、この男の悪を憎む心は、老婆の床に挿した松の<ruby><rb>木片</rb><rt>きぎれ</rt></ruby>のように、勢いよく燃え上り出していたのである。<br />　下人には、勿論、何故老婆が死人の髪の毛を抜くかわからなかった。従って、合理的には、それを善悪のいずれに片づけてよいか知らなかった。しかし下人にとっては、この雨の夜に、この羅生門の上で、死人の髪の毛を抜くと云う事が、それだけで既に許すべからざる悪であった。勿論、下人は、さっきまで自分が、盗人になる気でいた事なぞは、とうに忘れていたのである。<br />　そこで、下人は、両足に力を入れて、いきなり、梯子から上へ飛び上った。そうして<ruby><rb>聖柄</rb><rt>ひじりづか</rt></ruby>の太刀に手をかけながら、大股に老婆の前へ歩みよった。老婆が驚いたのは云うまでもない。<br />　老婆は、一目下人を見ると、まるで<ruby><rb>弩</rb><rt>いしゆみ</rt></ruby>にでも<ruby><rb>弾</rb><rt>はじ</rt></ruby>かれたように、飛び上った。<br />「おのれ、どこへ行く。」<br />　下人は、老婆が死骸につまずきながら、慌てふためいて逃げようとする行手を<ruby><rb>塞</rb><rt>ふさ</rt></ruby>いで、こう<ruby><rb>罵</rb><rt>ののし</rt></ruby>った。老婆は、それでも下人をつきのけて行こうとする。下人はまた、それを行かすまいとして、押しもどす。二人は死骸の中で、しばらく、無言のまま、つかみ合った。しかし勝敗は、はじめからわかっている。下人はとうとう、老婆の腕をつかんで、無理にそこへ<ruby><rb><span class="gaiji">扭</span></rb><rt>ね</rt></ruby>じ倒した。丁度、<ruby><rb>鶏</rb><rt>にわとり</rt></ruby>の脚のような、骨と皮ばかりの腕である。<br />「何をしていた。云え。云わぬと、これだぞよ。」<br />　下人は、老婆をつき放すと、いきなり、太刀の<ruby><rb>鞘</rb><rt>さや</rt></ruby>を払って、白い<ruby><rb>鋼</rb><rt>はがね</rt></ruby>の色をその眼の前へつきつけた。けれども、老婆は黙っている。両手をわなわなふるわせて、肩で息を切りながら、眼を、<ruby><rb>眼球</rb><rt>めだま</rt></ruby>が<ruby><rb><span class="gaiji">眶</span></rb><rt>まぶた</rt></ruby>の外へ出そうになるほど、見開いて、唖のように<ruby><rb>執拗</rb><rt>しゅうね</rt></ruby>く黙っている。これを見ると、下人は始めて明白にこの老婆の生死が、全然、自分の意志に支配されていると云う事を意識した。そうしてこの意識は、今までけわしく燃えていた憎悪の心を、いつの間にか冷ましてしまった。<ruby><rb>後</rb><rt>あと</rt></ruby>に残ったのは、ただ、ある仕事をして、それが円満に成就した時の、安らかな得意と満足とがあるばかりである。そこで、下人は、老婆を見下しながら、少し声を柔らげてこう云った。<br />「<ruby><rb>己</rb><rt>おれ</rt></ruby>は<ruby><rb>検非違使</rb><rt>けびいし</rt></ruby>の庁の役人などではない。今し方この門の下を通りかかった旅の者だ。だからお前に<ruby><rb>縄</rb><rt>なわ</rt></ruby>をかけて、どうしようと云うような事はない。ただ、今時分この門の上で、何をして居たのだか、それを己に話しさえすればいいのだ。」<br />　すると、老婆は、見開いていた眼を、一層大きくして、じっとその下人の顔を見守った。<ruby><rb><span class="gaiji">眶</span></rb><rt>まぶた</rt></ruby>の赤くなった、肉食鳥のような、鋭い眼で見たのである。それから、皺で、ほとんど、鼻と一つになった唇を、何か物でも噛んでいるように動かした。細い喉で、尖った<ruby><rb>喉仏</rb><rt>のどぼとけ</rt></ruby>の動いているのが見える。その時、その喉から、<ruby><rb>鴉</rb><rt>からす</rt></ruby>の啼くような声が、<ruby><rb>喘</rb><rt>あえ</rt></ruby>ぎ喘ぎ、下人の耳へ伝わって来た。<br />「この髪を抜いてな、この髪を抜いてな、<ruby><rb>鬘</rb><rt>かずら</rt></ruby>にしようと思うたのじゃ。」<br />　下人は、老婆の答が存外、平凡なのに失望した。そうして失望すると同時に、また前の憎悪が、冷やかな<ruby><rb>侮蔑</rb><rt>ぶべつ</rt></ruby>と一しょに、心の中へはいって来た。すると、その<ruby><rb>気色</rb><rt>けしき</rt></ruby>が、先方へも通じたのであろう。老婆は、片手に、まだ死骸の頭から奪った長い抜け毛を持ったなり、<ruby><rb>蟇</rb><rt>ひき</rt></ruby>のつぶやくような声で、口ごもりながら、こんな事を云った。<br />「成程な、<ruby><rb>死人</rb><rt>しびと</rt></ruby>の髪の毛を抜くと云う事は、何ぼう悪い事かも知れぬ。じゃが、ここにいる死人どもは、皆、そのくらいな事を、されてもいい人間ばかりだぞよ。現在、わしが今、髪を抜いた女などはな、蛇を<ruby><rb>四寸</rb><rt>しすん</rt></ruby>ばかりずつに切って干したのを、<ruby><rb>干魚</rb><rt>ほしうお</rt></ruby>だと云うて、<ruby><rb>太刀帯</rb><rt>たてわき</rt></ruby>の陣へ売りに<ruby><rb>往</rb><rt>い</rt></ruby>んだわ。<ruby><rb>疫病</rb><rt>えやみ</rt></ruby>にかかって死ななんだら、今でも売りに往んでいた事であろ。それもよ、この女の売る干魚は、味がよいと云うて、太刀帯どもが、欠かさず<ruby><rb>菜料</rb><rt>さいりよう</rt></ruby>に買っていたそうな。わしは、この女のした事が悪いとは思うていぬ。せねば、饑死をするのじゃて、仕方がなくした事であろ。されば、今また、わしのしていた事も悪い事とは思わぬぞよ。これとてもやはりせねば、饑死をするじゃて、仕方がなくする事じゃわいの。じゃて、その仕方がない事を、よく知っていたこの女は、大方わしのする事も大目に見てくれるであろ。」<br />　老婆は、大体こんな意味の事を云った。<br />　下人は、太刀を<ruby><rb>鞘</rb><rt>さや</rt></ruby>におさめて、その太刀の<ruby><rb>柄</rb><rt>つか</rt></ruby>を左の手でおさえながら、冷然として、この話を聞いていた。勿論、右の手では、赤く頬に膿を持った大きな<ruby><rb>面皰</rb><rt>にきび</rt></ruby>を気にしながら、聞いているのである。しかし、これを聞いている中に、下人の心には、ある勇気が生まれて来た。それは、さっき門の下で、この男には欠けていた勇気である。そうして、またさっきこの門の上へ上って、この老婆を捕えた時の勇気とは、全然、反対な方向に動こうとする勇気である。下人は、饑死をするか盗人になるかに、迷わなかったばかりではない。その時のこの男の心もちから云えば、饑死などと云う事は、ほとんど、考える事さえ出来ないほど、意識の外に追い出されていた。<br />「きっと、そうか。」<br />　老婆の話が<ruby><rb>完</rb><rt>おわ</rt></ruby>ると、下人は<ruby><rb>嘲</rb><rt>あざけ</rt></ruby>るような声で念を押した。そうして、一足前へ出ると、不意に右の手を<ruby><rb>面皰</rb><rt>にきび</rt></ruby>から離して、老婆の<ruby><rb>襟上</rb><rt>えりがみ</rt></ruby>をつかみながら、噛みつくようにこう云った。<br />「では、<ruby><rb>己</rb><rt>おれ</rt></ruby>が<ruby><rb>引剥</rb><rt>ひはぎ</rt></ruby>をしようと恨むまいな。己もそうしなければ、饑死をする体なのだ。」<br />　下人は、すばやく、老婆の着物を剥ぎとった。それから、足にしがみつこうとする老婆を、手荒く死骸の上へ蹴倒した。梯子の口までは、僅に五歩を数えるばかりである。下人は、剥ぎとった<ruby><rb>檜皮色</rb><rt>ひわだいろ</rt></ruby>の着物をわきにかかえて、またたく間に急な梯子を夜の底へかけ下りた。<br />　しばらく、死んだように倒れていた老婆が、死骸の中から、その裸の体を起したのは、それから間もなくの事である。老婆はつぶやくような、うめくような声を立てながら、まだ燃えている火の光をたよりに、梯子の口まで、這って行った。そうして、そこから、短い<ruby><rb>白髪</rb><rt>しらが</rt></ruby>を<ruby><rb>倒</rb><rt>さかさま</rt></ruby>にして、門の下を覗きこんだ。外には、ただ、<ruby><rb>黒洞々</rb><rt>こくとうとう</rt></ruby>たる夜があるばかりである。<br />　下人の<ruby><rb>行方</rb><rt>ゆくえ</rt></ruby>は、誰も知らない。<br /><div class="chitsuki_1" style="text-align:right; margin-right: 1em">（大正四年九月）</div><br /><br /><br /></div><div class="bibliographical_information"><hr /><br />底本：「芥川龍之介全集1」ちくま文庫、筑摩書房<br />　　　1986（昭和61）年9月24日第1刷発行<br />　　　1997（平成9）年4月15日第14刷発行<br />底本の親本：「筑摩全集類聚版芥川龍之介全集」筑摩書房<br />　　　1971（昭和46）年3月〜1971（昭和46）年11月<br />入力：平山誠、野口英司<br />校正：もりみつじゅんじ<br />1997年10月29日公開<br />2010年11月4日修正<br />青空文庫作成ファイル：<br />このファイルは、インターネットの図書館、<a href="http://www.aozora.gr.jp/">青空文庫（http://www.aozora.gr.jp/）</a>で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。<br /><br /><br /></div><div class="notation_notes"><hr /><br />●表記について<br /><ul>	<li>このファイルは W3C 勧告 XHTML1.1 にそった形式で作成されています。</li>	<li>「くの字点」をのぞくJIS X 0213にある文字は、画像化して埋め込みました。</li></ul></div><div id="card"><hr /><br /><a href="JavaScript:goLibCard();" id="goAZLibCard">●図書カード</a><script type="text/javascript" src="../../contents.js"></script><script type="text/javascript" src="../../golibcard.js"></script></div></body></html>
