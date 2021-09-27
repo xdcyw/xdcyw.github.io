@@ -6,10 +6,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>@2021- XdCyw</copyright>
-    <lastBuildDate>Mon, 27 Sep 2021 09:18:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Sep 2021 22:27:18 +0900</lastBuildDate>
     
         <atom:link href="http://xdcyw.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cloudflareを導入</title>
+      <link>http://xdcyw.net/post/cloudflare%E3%82%92%E5%B0%8E%E5%85%A5/</link>
+      <pubDate>Mon, 27 Sep 2021 22:27:18 +0900</pubDate>
+      
+      <guid>http://xdcyw.net/post/cloudflare%E3%82%92%E5%B0%8E%E5%85%A5/</guid>
+      <description>&lt;p&gt;同上。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>スマホから投稿テスト</title>
