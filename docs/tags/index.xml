@@ -17,7 +17,7 @@
       
       <guid>http://xdcyw.net/post/%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%81%A8gpg%E9%8D%B5%E3%82%92%E6%96%B0%E8%AA%BF/</guid>
       <description>&lt;p&gt;メールアドレスを新調しました。&lt;/p&gt;
-&lt;p&gt;新しいメールアドレスは[mail@xdcyw.net]です。&lt;/p&gt;
+&lt;p&gt;新しいメールアドレスは[mail@xdcyw.jp]です。&lt;/p&gt;
 &lt;p&gt;また、メールアドレスの新調に合わせてGPG鍵も新調しました。以下のコマンドでインポート可能です。&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;gpg --fetch-keys https://github.com/xdcyw.gpg
 or
