@@ -34,10 +34,10 @@ draft: false
 ```git
 gpg --fetch-keys https://github.com/xdcyw.gpg
 or
-curl https://github/xdcyw.gpg | gpg --import
+curl https://github.com/xdcyw.gpg | gpg --import
 ```
 
-## 関連リンク
+## 関連リンクE5D4A65ED38B494E
 [Twitter](https://twitter.com/xdcyw)
 
 [Github](https://github.com/xdcyw)

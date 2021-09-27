@@ -13,5 +13,5 @@ draft: false
 ```git
 gpg --fetch-keys https://github.com/xdcyw.gpg
 or
-curl https://github/xdcyw.gpg | gpg --import
+curl https://github.com/xdcyw.gpg | gpg --import
 ```
