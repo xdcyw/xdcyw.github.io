@@ -15,14 +15,32 @@ draft: false
 
 
 ## 問い合わせ
-[Twitter](https://twitter.com/xdcyw)のDM、またはXMPPアドレス[xdcyw@conversations.im]
+[Twitter](https://twitter.com/xdcyw)のDM
+
+[xdcyw@conversations.im]のXMPPアドレス
+
+[mail@xdcyw.jp]のメールアドレスにて受け付けています。
+
+
+
 または、下記Session idにて受け付けています。
 ```SessionID
 0546180bb5c2ffac52e1e148fec0b9f35e9a98356c5a5ccd6edfc5f2fe52d83a60
 ```
 
+## PGP
+またgpg鍵は下記コマンドでインポート可能です。
+
+```git
+gpg --fetch-keys https://github.com/xdcyw.gpg
+or
+curl https://github/xdcyw.gpg | gpg --import
+```
+
 ## 関連リンク
 [Twitter](https://twitter.com/xdcyw)
+
 [Github](https://github.com/xdcyw)
+
 [keybase](https://keybase.io/xdcyw)
 
