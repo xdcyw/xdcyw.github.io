@@ -138,7 +138,7 @@ curl https://github.com/xdcyw.gpg | gpg --import
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;gpg --fetch-keys https://github.com/xdcyw.gpg
 or
 curl https://github.com/xdcyw.gpg | gpg --import
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;関連リンクe5d4a65ed38b494e&#34;&gt;関連リンクE5D4A65ED38B494E&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;関連リンク&#34;&gt;関連リンク&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/xdcyw&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Twitter&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/xdcyw&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Github&lt;/a&gt;

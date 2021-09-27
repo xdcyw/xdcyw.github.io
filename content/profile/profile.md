@@ -37,7 +37,7 @@ or
 curl https://github.com/xdcyw.gpg | gpg --import
 ```
 
-## 関連リンクE5D4A65ED38B494E
+## 関連リンク
 [Twitter](https://twitter.com/xdcyw)
 
 [Github](https://github.com/xdcyw)
