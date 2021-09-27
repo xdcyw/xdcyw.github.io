@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>http://xdcyw.net/aozora/</loc><lastmod>2021-09-27T12:46:01+09:00</lastmod></url><url>
     <loc>http://xdcyw.net/post/</loc><lastmod>2021-09-26T17:39:59+09:00</lastmod></url><url>
     <loc>http://xdcyw.net/post/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</loc><lastmod>2021-09-26T17:39:59+09:00</lastmod></url><url>
     <loc>http://xdcyw.net/</loc><lastmod>2021-09-26T17:39:59+09:00</lastmod></url><url>
@@ -9,4 +8,5 @@
     <loc>http://xdcyw.net/profile/</loc><lastmod>2021-09-25T21:06:05+09:00</lastmod></url><url>
     <loc>http://xdcyw.net/profile/profile/</loc><lastmod>2021-09-25T21:06:05+09:00</lastmod></url><url>
     <loc>http://xdcyw.net/categories/</loc></url><url>
-    <loc>http://xdcyw.net/tags/</loc></url></urlset>
+    <loc>http://xdcyw.net/tags/</loc></url><url>
+    <loc>http://xdcyw.net/aozora/</loc></url></urlset>
