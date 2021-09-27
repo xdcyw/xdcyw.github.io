@@ -1,6 +1,6 @@
 baseURL = 'http://xdcyw.net/'
 languageCode = 'ja'
-title = "技術的理想主義者の日記"
+title = "技術的理想郷主義者の日記"
 theme = 'hugo-notepadium'
 favicon = true
 publishDir = "docs"
