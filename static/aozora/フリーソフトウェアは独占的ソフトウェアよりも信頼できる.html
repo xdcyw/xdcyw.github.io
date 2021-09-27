@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+<HEAD>
+<meta charset="utf-8">
+<title>フリーソフトウェアは独占的ソフトウェアよりも信頼できる</title>
+<STYLE TYPE="text/css">
+<!--
+PRE, UL, OL, P { line-height:130% }
+-->
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#1F00FF" ALINK="#FF0000" VLINK="#9900DD">
+<h1>フリーソフトウェアは独占的ソフトウェアよりも信頼できる</h1>
+<p>
+ [
+<a href="http://www.gnu.org/software/reliability.html">英語</a> | 
+<a href="http://www.gnu.org/software/reliability.ja.html">日本語(八田氏訳)</a> ]
+</p>
+
+<p>
+
+<!--
+Apologists for
+<A HREF="/philosophy/categories.html#ProprietarySoftware">proprietary
+software</A>
+
+like to say, ``<A HREF="/philosophy/free-sw.html">free software</A> is a
+nice dream, but we all know that only the proprietary system can
+produce reliable products.  A bunch of hackers just can't do this.''
+-->
+
+<a href="http://www.gnu.org/philosophy/categories.ja.html#ProprietarySoftware">独占的ソフトウェア</a>の弁明をする人たちは、
+こういう話をするのが好きです。
+「
+<a href="http://www.gnu.org/philosophy/free-sw.ja.html">フリーソフトウェア</a>は素敵な夢だが、
+信頼性の高い製品を作れるのは、
+独占的な組織だけだっていうのは、
+我々みんなが知ってることだよ。
+ハッカーの寄り集まりにはそんなことできっこない」
+
+</p><p>
+
+<!--
+Empirical evidence disagrees, however; scientific tests, described
+below, have found GNU software to be <em>more</em> reliable than
+comparable proprietary software.
+-->
+
+しかしながら、経験上得られた事実はその意見に反しています。
+以下で述べる科学的なテストによれば、
+GNUソフトウェアは、それと比較できる独占的ソフトウェアよりも<em>もっと</em>信頼できることがわかったのです。
+
+</p><p>
+
+<!--
+This should not be a surprise; there are good reasons for the high
+reliability of GNU software, good reasons to expect free software
+will often (though not always) have high reliability.
+-->
+
+これは驚くべきことではありません。
+GNUソフトウェアが高信頼性であることには確かな理由がありますし、
+フリーソフトウェアがたいてい（常に、とはかぎりませんが）
+高信頼性であることにも確かな理由があるのです。
+
+</p>
+
+<hr>
+
+<h4>目次</h4>
+
+<ul><li>
+<a href="#GNUUtilitiesSafer">GNUユーティリティはより安全</a>
+</li>
+<li>
+<a href="#WhyReliable">フリーソフトウェアがより信頼できるのはなぜか</a>
+</li>
+<li>
+<a href="#CancerClinicReliesOnFreeSoftware">ガンクリニックもフリーソフトウェアを頼っています</a>
+</li>
+<li>
+<a href="#Bulletproof">GNUユーティリティの防弾チョッキを援助してください</a>
+</li></ul>
+<hr>
+
+<h4 id="GNUUtilitiesSafer">GNUユーティリティはより安全</h4>
+
+<p>
+
+<!--
+Barton P. Miller and his colleagues tested the reliability of Unix
+utility programs in 1990 and 1995.  Each time, GNU's utilities came
+out considerably ahead.  They tested seven commercial Unix systems as
+well as GNU.  By subjecting them to a random input stream, they could
+``crash (with core dump) or hang (infinite loop) over 40% (in the
+worst case) of the basic utility programs ...''
+-->
+
+Barton P. Millerとその同僚は、
+1990年と1995年に、Unixのユーティリティプログラムの信頼性をテストしました。
+そのいずれにおいても、GNUのユーティリティは非常に抜きん出ていました。
+彼らは7つの商用UnixシステムをGNU同様にテストしました。
+ランダムな入力ストリームを与えたところ、
+「基本的なユーティリティプログラムのうち40%以上が、（コアダンプして）クラッシュしたり、
+ハング（無限ループ）したりしました…」
+
+</p><p>
+
+<!--
+These researchers found that the commercial Unix systems had a failure
+rate that ranged from 15% to 43%.  In contrast, the failure rate for
+GNU was only 7%.
+-->
+
+この研究者たちは、
+商用のUnixシステムの故障率
+<font color="green">（訳者：
+failure rate。適切な訳語は？
+）</font>
+は15%から43%の範囲なのに対して、GNUの故障率は7%にすぎない、
+ということを発見したのです。
+
+</p><p>
+
+<!--
+Miller also said that, ``the three commercial systems that we compared
+in both 1990 and 1995 noticeably improved in reliability, but still
+had significant rates of failure (the basic utilities from GNU/Linux
+still were noticeably better than those of the commercial systems).''
+-->
+
+Millerはまた次のように言っています。
+「我々が比較した商業製品のシステム3つは、
+1990年と1995年にはるかに信頼性が改善された。
+しかし、failureの割合はそれでも著しく高かったのだ
+（GNU/Linuxからの基本ユーティリティは、
+これらの商業製品よりもはるかによかった）」
+
+</p><p>
+
+<!--
+For details, see their paper:
+-->
+
+詳細は彼らの論文を参照してください。
+
+
+<a href="ftp://grilled.cs.wisc.edu/technical_papers/fuzz-revisited.ps">Fuzz Revisited: A Re-examination of the Reliability of Unix Utilities and Services (postscript 146k)</a>by Barton P. Miller
+
+<A HREF="mailto:bart@cs.wisc.edu">&lt;bart@cs.wisc.edu&gt;</A>, David
+Koski, Cjin Pheow Lee, Vivekananda Maganty, Ravi Murthy, Ajitkumar
+Natarajan, and Jeff Steidl.
+
+</p><p>
+
+<font color="green">（訳者：
+<a href="ftp://grilled.cs.wisc.edu/technical_papers/fuzz-revisited.pdf">PDF形式</a>もあります。
+）</font>
+
+</p>
+
+<h4 id="WhyReliable">フリーソフトウェアがより信頼できるのはなぜか</h4>
+
+<p>
+
+<!--
+It is no fluke that the GNU utilities are so reliable.  There are good
+reasons why free software tends to be of high quality.
+-->
+
+GNUユーティリティの信頼性がこんなに高いのは、まぐれではありません。
+フリーソフトウェアが高信頼性を持つ傾向があるのには、
+確かな理由があるのです。
+
+</p><p>
+
+<!--
+One reason is that free software gets the whole community involved in
+working together to fix problems.  Users not only report bugs, they
+even fix bugs and send in fixes.  Users work together, conversing by
+email, to get to the bottom of a problem and make the software
+work trouble-free.
+-->
+
+理由の一つは、フリーソフトウェアは
+問題を解決するために、全コミュニティが協力しあって関わっているという点です。
+ユーザはバグを報告するだけではなく、
+バグを修正したり、修正を送ったりすることすらあります。
+問題の深みまで至り、そのソフトを問題なく動作させるために、
+ユーザは電子メールで互いに会話をしながら一緒に作業するのです。
+
+</p><p>
+
+<!--
+Another is that developers really care about reliability.  Free
+software packages do not always compete commercially, but they still
+compete for a good reputation, and a program which is unsatisfactory
+will not achieve the popularity that developers hope for.  What's
+more, an author who makes the source code available for all to see
+puts his reputation on the line, and had better make the software
+clean and clear, on pain of the community's disapproval.
+-->
+
+別の理由は、開発者は信頼性を本当に気にかけているということです。
+フリーソフトウェアパッケージは商業的に競っているとは限りませんが、
+それでも競っていい評判を得ようと努力しています。
+不充分なプログラムは、開発者が期待する人気を得ることはないでしょう。
+さらに、ソースコードを万人に見えるようにしている作者は自分の評判をオンラインに置いており、
+コミュニティから否認の刑にさらされないために、
+ソフトウェアをクリーンでクリアなものにしておくべきなのです。
+
+</p>
+
+
+<h4 id="CancerClinicReliesOnFreeSoftware">ガンクリニックもフリーソフトウェアを頼っています</h4>
+
+<p>
+
+<!--
+The Roger Maris Cancer Center in Fargo, North Dakota (the same Fargo
+which was recently the scene of a movie and a flood) uses Linux-based
+GNU systems precisely because reliability is essential.  A network of
+GNU/Linux machines runs the information system, coordinates drug
+therapies, and performs many other functions.  This network needs to
+be available to the Center's staff at a moment's notice.
+-->
+
+ノースダコタ州、Fargo
+（最近映画と洪水で話題になったFargoと同じ）のThe Roger Maris Cancer Centerでは、
+LinuxベースのGNUシステムを使っています。
+そこでは信頼性が本質的に重要だからです。
+GNU/Linuxマシンのネットワークが情報システムを動かし、
+薬物療法(drug therapies)を組織的に結び付け、
+さらに他の多数の機能を果たしています。
+そのネットワークは、
+センターのスタッフが必要に応じてすぐに利用可能である必要があります。
+
+<font color="green">（訳者：
+Fargoについては、読者から情報をいただきました。
+感謝します。
+<a href="http://us.imdb.com/Title?0116282">映画</a>および
+<a href="http://www.ndsu.nodak.edu/fargoflood/">洪水</a>にFargoが出てきたそうです
+）</font>
+</p><p>
+
+<!--
+According to Dr. G.W. Wettstein
+-->
+
+G.W.Wettstein博士の話
+
+<A HREF="mailto:greg@wind.rmcc.com">&lt;greg@wind.rmcc.com&gt;</A>:
+
+<!--
+``the proper care of our cancer patients would not be what it is today
+without Linux ... The tools that we have been able to deploy from free
+software channels have enabled us to write and develop innovative
+applications which ... do not exist through commercial avenues.''
+-->
+
+<blockquote>
+「Linuxが存在しなかったら、
+我々のガン患者を現在のような形で適切にケアすることはできなかっただろう。
+…フリーソフトウェアのルートから入手できたツールたちを使うことで、
+我々は、販売されていないような…革新的なアプリケーションを書き、開発することができたのだ」
+</blockquote>
+
+</p>
+
+<h4 id="Bulletproof">GNUユーティリティの防弾チョッキを援助してください</h4>
+
+<p>
+
+<!--
+<A HREF="mailto:s-max@pacbell.net">Scott Maxwell</A> is leading an effort
+to eliminate "fuzz bugs" from GNU software, thus making them even more
+reliable. You can read about the project on <A HREF="http://home.pacbell.net/s-max/scott/bulletproof-penguin.html">http://home.pacbell.net/s-max/scott/bulletproof-penguin.html</A>.
+-->
+
+<A HREF="mailto:s-max@pacbell.net">Scott Maxwell</A>は、
+GNUソフトウェアから「ファズ・バグズ(fuzz bugs)」
+を根絶する作業を率いています。
+そうすることで、GNUソフトウェアはさらにもっと信頼性が高まるのです。
+このプロジェクトについては、
+<A HREF="http://home.pacbell.net/s-max/scott/bulletproof-penguin.html">http://home.pacbell.net/s-max/scott/bulletproof-penguin.html</A>
+を参照してください。
+
+<font color="green">（訳者：
+ランダムに生成された入力をプログラムに与えるテストをfuzz testingと呼び、
+それで発見されるバグをfuzz bugと呼ぶ。
+詳細は、
+この文章の最初にもある"Fuzz Revisited"の論文を参照
+）</font>
+
+</p>
+
+<hr>
+
+<p>
+
+Copyright (C) 1997, 1998, 1999 Free Software Foundation, Inc.,
+59 Temple Place - Suite 330, Boston, MA  02111,  USA
+
+</p><p>
+
+Verbatim copying and distribution of this entire article is
+permitted in any medium, provided this notice is preserved.
+
+</p><p>
+
+本文に一切変更を加えず、この著作権表示を残す限り、この文章全体をコピーおよび配布することを許可する。
+媒体は問わない。
+
+</p><p>
+
+
+<hr>
+
+<p>
+
+翻訳は<a href="https://www.hyuki.com/">結城浩</a>が行ないました。
+誤字・誤訳の指摘を歓迎します。
+
+</p><p>
+
+HTMLソースに原文がコメントとして含まれていますので、
+ご指摘くださる際に利用してください。
+
+</p><p>
+
+<a href="http://www.genpaku.org/">プロジェクト杉田玄白</a>正式参加テキスト。
+
+</p>
+
+<h3>翻訳の更新記録</h3>
+
+<ul><li>
+2016年1月25日、文字コードをUTF-8に変更。
+</li>
+<li>
+<a href="http://www.gnu.org/software/reliability.ja.html">2001年1月15日、八田氏訳の日本語版へのリンク追加。</a>
+</li>
+<li>
+2000年9月17日、Fargoに関するコメント追加。南野さん、情報感謝します。
+</li>
+<li>
+2000年9月15日、公開。
+</li></ul><hr>
+</BODY>
+</HTML>
