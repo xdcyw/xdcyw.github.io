@@ -13,6 +13,8 @@ draft: false
 
 [資本論(PDF)](資本論.pdf)*未完成
 
+[タイムマシン](TheTimeMachine.html)
+
 このページにあるすべてのファイルは[クリエイティブ・コモンズ・ライセンス](https://creativecommons.org/licenses/by-sa/2.1/jp/)の下で公開しています。
 
 ファイルは気分で追加していきます。要望があれば追加するかもしれません。
