@@ -2,6 +2,7 @@
 title: "メールアドレスとGPG鍵を新調"
 date: 2021-09-28T02:47:59+09:00
 draft: false
+categories: [tech]
 ---
 
 メールアドレスを新調しました。

@@ -6,7 +6,7 @@ favicon = true
 publishDir = "docs"
 copyright = "@2021- XdCyw"
 hasCJKLanguage = true
-
+disqusShortname = "https-xdcyw-net"
 enableRobotsTXT = true
 
 
