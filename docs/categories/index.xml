@@ -6,10 +6,74 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>@2021- XdCyw</copyright>
-    <lastBuildDate>Tue, 28 Sep 2021 02:47:59 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 Sep 2021 05:29:27 +0900</lastBuildDate>
     
         <atom:link href="http://xdcyw.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Androidスマホからhugoを更新する方法</title>
+      <link>http://xdcyw.net/post/android%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%8B%E3%82%89hugo%E3%82%92%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Wed, 29 Sep 2021 05:29:27 +0900</pubDate>
+      
+      <guid>http://xdcyw.net/post/android%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%8B%E3%82%89hugo%E3%82%92%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
+      <description>&lt;p&gt;今回は、hugoで書かれたサイトをAndroidスマホから更新する方法を紹介していこうと思います。&lt;/p&gt;
+&lt;p&gt;github pagesにホスティングされている事を前提として解説していきます。&lt;/p&gt;
+&lt;p&gt;また、すでにhugoのプロジェクトが作成されている前提です。&lt;/p&gt;
+&lt;p&gt;まずは、Androidスマホに&lt;a href=&#34;https://termux.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Termux&lt;/a&gt;
+をインストールします。&lt;/p&gt;
+&lt;p&gt;インストールが完了したら、Termuxを開いて以下のコマンドを実行してください。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;pkg update
+pkg install git openssh hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;これで必要なソフトウェアのインストールが完了です。&lt;/p&gt;
+&lt;p&gt;次にGitの初期設定をします。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;Yourname&amp;#34;&lt;/span&gt;
+$ git config --global user.email &lt;span class=&#34;s2&#34;&gt;&amp;#34;example@example.com&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;上記のコマンドで完了です。Yournameとexample@example.comには各自適当な情報を入力してください。&lt;/p&gt;
+&lt;p&gt;次に必須ではありませんが、公開鍵認証をしようしようと思うのでsshキーを作成します。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~/.ssh
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;/data/data/com.termux/files/home/.ssh/id_rsa&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;: ←鍵の保存先
+Enter passphrase &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;empty &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; no passphrase&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;:　←パスフレーズを入力
+Enter same passphrase again:  ←入力したパスフレーズの確認
+Your identification has been saved in id_rsa.
+Your public key has been saved in id_rsa.pub.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;対話式で色々聞かれますが、基本的にはデフォルトのままで大丈夫だと思います。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ ls
+id_rsa  id_rsa.pub
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;id_rsaが秘密鍵、id_rsa.pubが公開鍵です。&lt;/p&gt;
+&lt;p&gt;秘密鍵は絶対に他社に公開しないでください。&lt;/p&gt;
+&lt;p&gt;cat等で公開鍵の中身を表示しコピーしgithubの設定の「SSH and GPG keys」に移動します。&lt;/p&gt;
+&lt;p&gt;緑の「New ssh key」というボタンを押すと以下のような画面が表示されると思います。&lt;/p&gt;
+&lt;p&gt;&lt;img  src=&#34;https://uploda1.ysklog.net/uploda/f406a459e5.png&#34;
+        alt=&#34;github-screenshot&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;titleに任意の名前を入力してもらい、keyに先程コピーした公開鍵を入力します。&lt;/p&gt;
+&lt;p&gt;そして「Add SSH key」のボタンを押せばSSHキーの追加は完了です。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ ssh -T git@github.com
+Hi xdcyw! You&#39;ve successfully authenticated, but GitHub does not provide shell access.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;のような応答が返ってくればSSHキーは正しく設定できています。&lt;/p&gt;
+&lt;p&gt;失敗するような場合は今までの手順を見直してみてください。&lt;/p&gt;
+&lt;p&gt;では次にgithubからhugoのプロジェクトをクローンします。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ git clone git@github.com:/[username]/[リポジトリ名].git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;[username]と[リポジトリ名]は各自適当な情報を入力してください。&lt;/p&gt;
+&lt;p&gt;クローンが成功したら、そのディレクトリに移動します。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ ls
+&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;リポジトリ名&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+$ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;リポジトリ名&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;これで基本的には終了です。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ hugo server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;などを実行して、localhost:1313にスマホのブラウザからhugoのサイトが見れるか確認してください。&lt;/p&gt;
+&lt;p&gt;あとは、PC等でhugoを使うときと同じように使えると思います。&lt;/p&gt;
+&lt;p&gt;最後にマークダウンをviやnanoで編集することもできますが、それでは不便かと思いますので&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;termux-setup-storage
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;を実行すると、ファイルマネージャーからアクセスができます。&lt;/p&gt;
+&lt;p&gt;そのため任意のAndroid用テキストエディタでマークダウンを編集できると思います。&lt;/p&gt;
+&lt;p&gt;質問等がありましたら、&lt;a href=&#34;http://xdcyw.net/profile/profile&#34;&gt;このページ&lt;/a&gt;
+にある連絡先に連絡してもらえれば可能な限り回答します。&lt;/p&gt;
+&lt;p&gt;おわり。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>メールアドレスとGPG鍵を新調</title>

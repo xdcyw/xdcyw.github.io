@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.88.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>Androidスマホからhugoを更新する方法&nbsp;&ndash;&nbsp;技術的理想郷主義者の日記</title><link rel="stylesheet" href="/css/core.min.9e958365cf0319ede466a402e1369f31dc1f205c868aa836fe25581725c829d3f3545d9f142cccafe35363950a63e2a6.css" integrity="sha384-npWDZc8DGe3kZqQC4TafMdwfIFyGiqg2/iVYFyXIKdPzVF2fFCzMr&#43;NTY5UKY&#43;Km"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Androidスマホからhugoを更新する方法" /><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">技術的理想郷主義者の日記</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/">Home</a><a class="nav item" href="/profile/profile">Profile</a><a class="nav item" href="/post">Post</a><a class="nav item" href="https://twitter%2ecom/xdcyw/"target="_blank" rel="noopener noreferrer">Twitter</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">Androidスマホからhugoを更新する方法</h1><p class="article date">Wednesday, September 29, 2021</p></section><article class="article markdown-body"><p>今回は、hugoで書かれたサイトをAndroidスマホから更新する方法を紹介していこうと思います。</p>
+<p>github pagesにホスティングされている事を前提として解説していきます。</p>
+<p>また、すでにhugoのプロジェクトが作成されている前提です。</p>
+<p>まずは、Androidスマホに<a href="https://termux.com/"target="_blank" rel="noopener noreferrer">Termux</a>
+をインストールします。</p>
+<p>インストールが完了したら、Termuxを開いて以下のコマンドを実行してください。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">pkg update
+pkg install git openssh hugo
+</code></pre></div><p>これで必要なソフトウェアのインストールが完了です。</p>
+<p>次にGitの初期設定をします。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ git config --global user.name <span class="s2">&#34;Yourname&#34;</span>
+$ git config --global user.email <span class="s2">&#34;example@example.com&#34;</span>
+</code></pre></div><p>上記のコマンドで完了です。Yournameとexample@example.comには各自適当な情報を入力してください。</p>
+<p>次に必須ではありませんが、公開鍵認証をしようしようと思うのでsshキーを作成します。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ <span class="nb">cd</span> ~/.ssh
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key <span class="o">(</span>/data/data/com.termux/files/home/.ssh/id_rsa<span class="o">)</span>: ←鍵の保存先
+Enter passphrase <span class="o">(</span>empty <span class="k">for</span> no passphrase<span class="o">)</span>:　←パスフレーズを入力
+Enter same passphrase again:  ←入力したパスフレーズの確認
+Your identification has been saved in id_rsa.
+Your public key has been saved in id_rsa.pub.
+</code></pre></div><p>対話式で色々聞かれますが、基本的にはデフォルトのままで大丈夫だと思います。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ ls
+id_rsa  id_rsa.pub
+</code></pre></div><p>id_rsaが秘密鍵、id_rsa.pubが公開鍵です。</p>
+<p>秘密鍵は絶対に他社に公開しないでください。</p>
+<p>cat等で公開鍵の中身を表示しコピーしgithubの設定の「SSH and GPG keys」に移動します。</p>
+<p>緑の「New ssh key」というボタンを押すと以下のような画面が表示されると思います。</p>
+<p><img  src="https://uploda1.ysklog.net/uploda/f406a459e5.png"
+        alt="github-screenshot"/></p>
+<p>titleに任意の名前を入力してもらい、keyに先程コピーした公開鍵を入力します。</p>
+<p>そして「Add SSH key」のボタンを押せばSSHキーの追加は完了です。</p>
+<pre tabindex="0"><code>$ ssh -T git@github.com
+Hi xdcyw! You've successfully authenticated, but GitHub does not provide shell access.
+</code></pre><p>のような応答が返ってくればSSHキーは正しく設定できています。</p>
+<p>失敗するような場合は今までの手順を見直してみてください。</p>
+<p>では次にgithubからhugoのプロジェクトをクローンします。</p>
+<pre tabindex="0"><code>$ git clone git@github.com:/[username]/[リポジトリ名].git
+</code></pre><p>[username]と[リポジトリ名]は各自適当な情報を入力してください。</p>
+<p>クローンが成功したら、そのディレクトリに移動します。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ ls
+<span class="o">[</span>リポジトリ名<span class="o">]</span>
+$ <span class="nb">cd</span> <span class="o">[</span>リポジトリ名<span class="o">]</span>
+</code></pre></div><p>これで基本的には終了です。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ hugo server
+</code></pre></div><p>などを実行して、localhost:1313にスマホのブラウザからhugoのサイトが見れるか確認してください。</p>
+<p>あとは、PC等でhugoを使うときと同じように使えると思います。</p>
+<p>最後にマークダウンをviやnanoで編集することもできますが、それでは不便かと思いますので</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">termux-setup-storage
+</code></pre></div><p>を実行すると、ファイルマネージャーからアクセスができます。</p>
+<p>そのため任意のAndroid用テキストエディタでマークダウンを編集できると思います。</p>
+<p>質問等がありましたら、<a href="/profile/profile">このページ</a>
+にある連絡先に連絡してもらえれば可能な限り回答します。</p>
+<p>おわり。</p>
+</article><section class="article labels"><a class="category" href=/categories/tech/>tech</a></section>
+</div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/post/%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%81%A8gpg%E9%8D%B5%E3%82%92%E6%96%B0%E8%AA%BF/"><span class="iconfont icon-article"></span>メールアドレスとGPG鍵を新調</a></p></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright">@2021- XdCyw</p>
+    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" 
+        target="_blank" rel="noopener noreferrer">Hugo</a><span>&nbsp;&amp;&nbsp;</span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank" rel="noopener noreferrer">Notepadium</a></p></div>
+</section></body>
+
+</html>
