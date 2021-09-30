@@ -6,20 +6,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>@2021- XdCyw</copyright>
-    <lastBuildDate>Thu, 30 Sep 2021 19:14:15 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Sep 2021 22:43:24 +0900</lastBuildDate>
     
         <atom:link href="http://xdcyw.net/categories/ideology/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>反資本主義</title>
-      <link>http://xdcyw.net/post/%E5%8F%8D%E8%B3%87%E6%9C%AC%E4%B8%BB%E7%BE%A9/</link>
-      <pubDate>Thu, 30 Sep 2021 19:14:15 +0900</pubDate>
-      
-      <guid>http://xdcyw.net/post/%E5%8F%8D%E8%B3%87%E6%9C%AC%E4%B8%BB%E7%BE%A9/</guid>
-      <description>&lt;p&gt;資本主義の問題点を以下に書いていく。&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Androidスマホからhugoを更新する方法</title>
@@ -236,6 +226,36 @@ curl https://github.com/xdcyw.gpg | gpg --import
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://keybase.io/xdcyw&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;keybase&lt;/a&gt;
 &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>青空文庫やプロジェクト杉田玄白のファイルをおいておくだけの場所</title>
+      <link>http://xdcyw.net/aozora/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://xdcyw.net/aozora/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;%e7%be%85%e7%94%9f%e9%96%80.html&#34;&gt;羅生門&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;%e3%81%93%e3%81%93%e3%82%8d.html&#34;&gt;こころ&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;%e7%a0%b4%e6%88%92.html&#34;&gt;破戒&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;1984.pdf&#34;&gt;1984(PDF)&lt;/a&gt;
+*未完成&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;%e8%b3%87%e6%9c%ac%e8%ab%96.pdf&#34;&gt;資本論(PDF)&lt;/a&gt;
+*未完成&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;TheTimeMachine.html&#34;&gt;タイムマシン&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;%e3%83%95%e3%83%aa%e3%83%bc%e3%82%bd%e3%83%95%e3%83%88%e3%82%a6%e3%82%a7%e3%82%a2%e3%81%af%e7%8b%ac%e5%8d%a0%e7%9a%84%e3%82%bd%e3%83%95%e3%83%88%e3%82%a6%e3%82%a7%e3%82%a2%e3%82%88%e3%82%8a%e3%82%82%e4%bf%a1%e9%a0%bc%e3%81%a7%e3%81%8d%e3%82%8b.html&#34;&gt;フリーソフトウェアは独占的ソフトウェアよりも信頼できる&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;%e3%82%ac%e3%83%aa%e3%83%90%e3%83%bc%e6%97%85%e8%a1%8c%e8%a8%98.html&#34;&gt;ガリバー旅行記&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;%e3%83%ad%e3%83%9c%e3%83%83%e3%83%88.html&#34;&gt;R.U.R&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;このページにあるすべてのファイルは&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/2.1/jp/&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;クリエイティブ・コモンズ・ライセンス&lt;/a&gt;
+の下で公開しています。&lt;/p&gt;
+&lt;p&gt;ファイルは気分で追加していきます。要望があれば追加するかもしれません。&lt;/p&gt;
 </description>
     </item>
     
