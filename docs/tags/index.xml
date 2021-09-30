@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Disqusを導入</title>
+      <link>http://xdcyw.net/post/disqus%E3%82%92%E5%B0%8E%E5%85%A5/</link>
+      <pubDate>Fri, 01 Oct 2021 02:23:51 +0900</pubDate>
+      
+      <guid>http://xdcyw.net/post/disqus%E3%82%92%E5%B0%8E%E5%85%A5/</guid>
+      <description>&lt;p&gt;ページの下にあるであろうコメント欄のことです。&lt;/p&gt;
+&lt;p&gt;気軽にコメント残していってください。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Androidスマホからhugoを更新する方法</title>
       <link>http://xdcyw.net/post/android%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%8B%E3%82%89hugo%E3%82%92%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
       <pubDate>Wed, 29 Sep 2021 05:29:27 +0900</pubDate>
@@ -225,36 +236,6 @@ curl https://github.com/xdcyw.gpg | gpg --import
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://keybase.io/xdcyw&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;keybase&lt;/a&gt;
 &lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>青空文庫やプロジェクト杉田玄白のファイルをおいておくだけの場所</title>
-      <link>http://xdcyw.net/aozora/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://xdcyw.net/aozora/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;%e7%be%85%e7%94%9f%e9%96%80.html&#34;&gt;羅生門&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;%e3%81%93%e3%81%93%e3%82%8d.html&#34;&gt;こころ&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;%e7%a0%b4%e6%88%92.html&#34;&gt;破戒&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;1984.pdf&#34;&gt;1984(PDF)&lt;/a&gt;
-*未完成&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;%e8%b3%87%e6%9c%ac%e8%ab%96.pdf&#34;&gt;資本論(PDF)&lt;/a&gt;
-*未完成&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;TheTimeMachine.html&#34;&gt;タイムマシン&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;%e3%83%95%e3%83%aa%e3%83%bc%e3%82%bd%e3%83%95%e3%83%88%e3%82%a6%e3%82%a7%e3%82%a2%e3%81%af%e7%8b%ac%e5%8d%a0%e7%9a%84%e3%82%bd%e3%83%95%e3%83%88%e3%82%a6%e3%82%a7%e3%82%a2%e3%82%88%e3%82%8a%e3%82%82%e4%bf%a1%e9%a0%bc%e3%81%a7%e3%81%8d%e3%82%8b.html&#34;&gt;フリーソフトウェアは独占的ソフトウェアよりも信頼できる&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;%e3%82%ac%e3%83%aa%e3%83%90%e3%83%bc%e6%97%85%e8%a1%8c%e8%a8%98.html&#34;&gt;ガリバー旅行記&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;%e3%83%ad%e3%83%9c%e3%83%83%e3%83%88.html&#34;&gt;R.U.R&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;このページにあるすべてのファイルは&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/2.1/jp/&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;クリエイティブ・コモンズ・ライセンス&lt;/a&gt;
-の下で公開しています。&lt;/p&gt;
-&lt;p&gt;ファイルは気分で追加していきます。要望があれば追加するかもしれません。&lt;/p&gt;
 </description>
     </item>
     
