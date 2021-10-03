@@ -6,10 +6,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>@2021- XdCyw</copyright>
-    <lastBuildDate>Fri, 01 Oct 2021 02:23:51 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 03 Oct 2021 19:00:12 +0900</lastBuildDate>
     
         <atom:link href="http://xdcyw.net/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>加速主義と脱希少性経済</title>
+      <link>http://xdcyw.net/post/%E5%8A%A0%E9%80%9F%E4%B8%BB%E7%BE%A9%E3%81%A8%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88/</link>
+      <pubDate>Sun, 03 Oct 2021 19:00:12 +0900</pubDate>
+      
+      <guid>http://xdcyw.net/post/%E5%8A%A0%E9%80%9F%E4%B8%BB%E7%BE%A9%E3%81%A8%E8%84%B1%E5%B8%8C%E5%B0%91%E6%80%A7%E7%B5%8C%E6%B8%88/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Disqusを導入</title>
@@ -206,39 +215,6 @@ curl https://github.com/xdcyw.gpg | gpg --import
       
       <guid>http://xdcyw.net/post/%E3%83%86%E3%82%B9%E3%83%88%E6%8A%95%E7%A8%BF/</guid>
       <description>&lt;p&gt;サイトを開設してみました。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>自己紹介的な</title>
-      <link>http://xdcyw.net/profile/profile/</link>
-      <pubDate>Sat, 25 Sep 2021 21:06:05 +0900</pubDate>
-      
-      <guid>http://xdcyw.net/profile/profile/</guid>
-      <description>&lt;p&gt;こんにちは、Xdcywです。&lt;/p&gt;
-&lt;p&gt;高校生です。多分17歳です。&lt;/p&gt;
-&lt;p&gt;オープンソースソフトウェアやLinux、セキュリティなどに興味があります。&lt;/p&gt;
-&lt;p&gt;来年度受験ということもあり、インターネットでの活動を減らそうと努力しているため&lt;/p&gt;
-&lt;p&gt;低浮上になるかもしれませんがよろしくお願いします。&lt;/p&gt;
-&lt;h2 id=&#34;問い合わせ&#34;&gt;問い合わせ&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/xdcyw&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Twitter&lt;/a&gt;
-のDM&lt;/p&gt;
-&lt;p&gt;[xdcyw@conversations.im]のXMPPアドレス&lt;/p&gt;
-&lt;p&gt;[mail@xdcyw.jp]のメールアドレスにて受け付けています。&lt;/p&gt;
-&lt;p&gt;または、下記Session idにて受け付けています。&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-SessionID&#34; data-lang=&#34;SessionID&#34;&gt;0546180bb5c2ffac52e1e148fec0b9f35e9a98356c5a5ccd6edfc5f2fe52d83a60
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;pgp&#34;&gt;PGP&lt;/h2&gt;
-&lt;p&gt;またgpg鍵は下記コマンドでインポート可能です。&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;gpg --fetch-keys https://github.com/xdcyw.gpg
-or
-curl https://github.com/xdcyw.gpg | gpg --import
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;関連リンク&#34;&gt;関連リンク&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/xdcyw&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Twitter&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/xdcyw&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Github&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://keybase.io/xdcyw&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;keybase&lt;/a&gt;
-&lt;/p&gt;
 </description>
     </item>
     
